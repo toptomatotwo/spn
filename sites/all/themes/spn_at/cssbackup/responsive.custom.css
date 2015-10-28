@@ -1,0 +1,554 @@
+/*
+ * responsive.custom.css is for custom media queries that are not set via the
+ * theme settings, such as cascading media queries.
+ *
+ * By default all the other responsive stylesheets used in Adaptivetheme use a
+ * "stacking method", however cascading media queries use a waterfall method so
+ * you can leverage the cascade and inheritance for all browsers that support
+ * media queries.
+ *
+ * @SEE http://zomigi.com/blog/essential-considerations-for-crafting-quality-media-queries/#mq-overlap-stack
+ *
+ * NOTE: this file loads by default, to disable go to your theme settings and
+ * look under the "CSS" settings tab.
+ */
+
+/*
+ * Really small screens and up
+ */
+/* @media only screen and (min-width: 220px) {} */
+
+/*
+ * Smalltouch sizes and up
+ */
+/* @media only screen and (min-width: 320px) {} */
+
+/*
+ * Smalltouch sizes and down
+ */
+@media only screen and (max-width: 480px) {
+  /* 
+   * Float Region Blocks - custom media query CSS example:
+   * 
+   * Float regions blocks is an Extension you can enable in the appearance
+   * settings for your theme. This feature allows you to automatically float
+   * blocks in regions, you can switch it on and off depending on your
+   * requirements. For design purposes you many want to remove the floats for
+   * devices where the entire theme is just one column - for example small
+   * mobile phones. The following CSS is inside the custom media query:
+   *
+   *   @media only screen and (max-width: 480px){}
+   *
+   * This will target devices with a maximum width of 480px - most small phones.
+   * In these smaller screen sizes we can remove the float and widths so all
+   * blocks stack instead of displaying horizonally. The selector used is an
+   * "attribute selector" which will match on any float block class. Use your
+   * inspector or Firebug to get the classes from the page output if you need
+   * more granular control over block alignment and stacking.
+   */
+  .region[class*="float-blocks"] .block {
+    float: none;
+    width: 100%;
+  }
+}
+
+/*
+ * Tablet sizes and up
+ */
+/* @media only screen and (min-width: 768px) {} */
+
+/*
+ * Desktops/laptops and up
+ */
+/* @media only screen and (min-width: 1025px) {} */
+
+
+a, a:visited, a:hover, a:link {
+  color:#3c75a4;
+  /* color:#3c75a4; Too BLUE,SATURATED,*/
+  /* color:#4e799b; */
+  /*color:#6699cc; */
+} 
+/* Global 
+The Blue was:#799bb6;
+The Blue is:4e799b
+*/
+body {
+  font-family:'Lucida Grande', Helvetica;
+}
+
+iframe {display:block;}
+
+#monitor {
+  position:absolute;
+  width:75px;
+  height:35px;
+  background-color: #000;
+  top:100px;
+  left:0;
+  color:#f00;
+}
+
+a.active-trail, a.tactive {
+/*  color:#4e799b !important; */
+ color:#3c75a4 !important;
+
+}
+/*MENU BAR ELEMENTS 
+->MOVED TO RESPONSIVE STYLESHEETS
+END MENU BAR ELS */
+
+#node-14 h1 {
+  display:none;
+}
+
+
+/*. M A I N  M E N U   S T U F F   H E R E  */
+ul.menu {
+  list-style-type:none !important;
+
+}
+ul.menu li{
+  text-align: center;
+}
+
+/* MOVED TO RESPONSIVE CSS
+.nav {
+clear: both;
+margin: 10px 0 0 0;
+}
+
+#primary-menu-bar {
+padding-top:.7em;
+  border-bottom: 3px solid #000;
+}
+*/
+
+/* MOVED TO INDV RESPONSIVE SS 
+.primary-menu-wrapper {
+  margin-left:37.5%;
+}
+
+.primary-menu {
+  text-transform:uppercase;
+  font-size:1.2em;
+  font-weight:900
+}
+*/
+.primary-menu li a {
+    color:#959595;
+  font:'Lucida Grande';
+
+}
+.primary-menu li a:hover {
+  /* color:#4e799b; */
+  color:#3c75a4;
+  text-decoration:none;
+}
+.main-m-bullets {
+  position:relative;
+  top:5px;
+  font-size:.5em;
+  width:7.5%;
+}
+/* .main-m-bullets:last-child {display:none;} */
+ul.primary-menu li.main-m-bullets:last-child {display:none !important;}
+
+
+.region-sidebar-first {
+  min-height: 50em;
+  border-right:1px solid #a7a7a7;
+}
+
+.page {
+  border-left:1px solid #959595;
+  border-right:1px solid #959595;
+  overflow:hidden;
+}
+
+#content-column {
+  
+}
+
+#breadcrumb {display:none;}
+
+
+
+/* SIDEBAR NEWS HOMEPAGE */
+
+.region-sidebar-first h2, .region-sidebar-first h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color:#959595;
+}
+
+.block-content img.site-logo {
+  position:relative;
+  margin-left:10px
+}
+
+h2.sidebar-news-title {
+  text-align:center;
+  font-weight:800;
+  font-size:.775em;
+  line-height:1.3;
+}
+
+h2.menu-header a{
+  text-align:center;
+  font-weight:800;
+  font-size:1em;
+  line-height:1.3;
+}
+section#block-views-sidebar-homepage-news-block h2.block-title {
+/*div.region-sidebar-first h2.block-title:first-child { */
+  background:url('../images/header-underline.gif')no-repeat 50% 85%; 
+  padding-bottom:10px;
+  text-align:center;
+  color:#959595;
+  text-transform:uppercase;
+  font-size:1.2em; /* Same as menu */
+}
+
+h3.sidebar-news-date {
+  font-size:.9em;
+  color:#959595;
+  text-align:center;
+}
+
+.sidebar-host-label, .sidebar-host-info {
+  display:inline;
+  color:#959595;
+  font-size:.9em;
+  font-weight:800;
+  line-height: 1.1;
+}
+p.sidebar-news-content, .sidebar-news-venue-host, h3.sidebar-news-host {
+margin-top:15px;
+
+color:#666;
+font-size:.9em;
+line-height:1.4; /*SEE BELOW, REMOVE? */
+}
+p.sidebar-news-content {
+  line-height:1.3;
+}
+p.sidebar-news-content, .sidebar-news-venue-host {
+text-align:justify;
+}
+h3.sidebar-news-host {
+text-transform:none !important; 
+  text-align:center;
+  font-weight:300;
+}
+#block-block-1 {
+  margin-bottom: 0 !important;
+}
+a.sidebar-first-header-link {
+  display:block;
+  width:100%;
+  text-align:center;
+  /*color:#4e799b;*/
+  color:#3c75a4;
+  text-transform: uppercase;
+  font-weight:900;
+  font-size:1.2em;
+}
+/* END SIDEBAR NEWS */
+/* SIDEBAR MENUS  */
+nav#block-menu-menu-events ul li.menu-depth-1 a, nav#block-menu-menu-contact-join ul li.menu-depth-1 a, nav#block-menu-menu-network ul li.menu-depth-1 a{
+  color:#959595;
+  font-weight:800;
+  font-size:1.2em;
+  text-align:center;
+  text-transform: uppercase;
+}
+
+nav#block-menu-menu-events ul li.menu-depth-1, nav#block-menu-menu-contact-join ul li.menu-depth-1, nav#block-menu-menu-network ul li.menu-depth-1 {
+  margin-bottom:3em;
+}
+
+nav#block-menu-menu-events ul li.menu-depth-1 a:hover, nav#block-menu-menu-contact-join ul li.menu-depth-1 a:hover, nav#block-menu-menu-events ul li.menu-depth-1 a.active {
+  /*color:#4e799b; */
+  color:#3c75a4;
+  text-decoration:none;
+}
+
+nav#block-menu-menu-events ul {
+padding:0;
+}
+nav#block-menu-menu-events ul li ul li.menu-depth-2 a {
+  text-align:center;
+  font-weight:800;
+  font-size:1.1em;
+  text-transform: uppercase;
+}
+
+nav#block-menu-menu-events ul li ul li.menu-depth-2 {
+  margin-bottom: 1.2em
+}
+
+li.menu-depth-3 {
+  font-size:.7em;
+  margin:1em 0 !important;
+}
+li.menu-item-694 { /*GREE CAL LINK */
+  margin-bottom: 0 !important;
+}
+#block-views-program-event-calendar-block-1 {
+  position:relative;
+  /* top:-30px; */
+}
+nav#block-menu-menu-archives ul.menu {
+  padding-left:0;
+}
+
+nav#block-menu-menu-archives h2.block-title {
+  /*color:#4e799b;*/
+  color:#3c75a4;
+}
+
+nav#block-menu-menu-archives ul.menu li{
+  font-size:1.2em; 
+  text-transform:uppercase;
+  font-weight:900;
+  margin-bottom:10px;
+}
+nav#block-menu-menu-archives ul.menu li a{
+  color:#959595;
+}
+nav#block-menu-menu-archives ul.menu li a:hover{
+  /*color:#4e799b;*/
+  color:#3c75a4;
+  text-decoration:none;
+}
+nav#block-menu-menu-archives ul.menu li ul {
+  
+  margin-top:0;
+}
+
+nav#block-menu-menu-archives ul.menu li ul li.menu-depth-2 {
+  margin-bottom:-10px;
+  margin-top:0;
+}
+
+nav#block-menu-menu-archives ul.menu li ul li.menu-depth-2 a{
+  color:#959595;
+  font-size:.5em;
+}
+
+nav#block-menu-menu-insights ul {
+  padding-left:0;
+}
+
+nav#block-menu-menu-insights li.menu-depth-1 {
+  font-size:1.2em;
+  text-transform:uppercase;
+  font-weight:900;
+  margin-bottom:60px;
+}
+
+nav#block-menu-menu-insights li.menu-depth-1:first-child {
+  font-size:1.2em;
+}
+
+nav#block-menu-menu-insights li.menu-depth-1 a{
+color:#959595;
+}
+nav#block-menu-menu-insights li.menu-depth-1 a.active-trail{
+/*color:#4e799b;*/
+  color:#3c75a4;
+}
+
+nav#block-menu-menu-insights li.menu-depth-2{
+  font-size:.75em;
+  text-transform:uppercase;
+  font-weight:900;
+  margin-bottom:10px
+}
+
+nav#block-menu-menu-insights li.menu-depth-2:first-child {
+margin-top:-10px  
+}
+  
+/* END MENUS */
+
+
+/*--
+.more-link {
+  position:relative;
+  top:-70px;
+  font-size:.9em;
+  display:block;
+}
+
+.sidebar-news-rsvp p{
+  font-size:.9em;
+  font-weight:900;
+  text-align:center;
+  position:relative;
+  display:block;
+top:2em;
+color:#666;
+}
+.sidebar-news-rsvp a {
+  clear:left;
+  text-align:left;
+  display:block;
+font-size:.9em;
+}
+--*/
+/*-- REMOVED
+#homepage-logo {
+  position: relative;
+  margin-top:7%;
+  margin-left:15%;
+  width:472px;
+  height:367px;
+
+} --*/
+#columns {
+  margin-top:17px;
+  padding-top:.8em;
+border-top: 2px solid #959595;  
+}
+/*---- MAIN CONTENT ----*/
+/*PROGRAM ENTRY PANE ----*/
+
+.region-two-33-66-first {
+  width:31.2% !important; /* Beware this is an override, as per MBlocks comment */
+}
+
+.program-event-time-span {margin-bottom: 0;}
+
+/*move to landscaped, desktop css */
+.program-event-time-span {
+  margin-bottom: 0;
+  background:url('images/time-span-bg.png')repeat-x 10px 11px;
+  width:96%;
+  margin-left:11px;
+  }
+.program-event-time-span .block-inner{
+  margin-left:0;
+} 
+.program-event-time-span ul li {
+  font-size:2.3em;background-color:#fff;display:block;width:330px;
+  color:#333;font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:-.05px;
+}
+.program-entry-pane-body p {color:#959595;font-weight:700}
+.program-entry-pane-field div.field-items, 
+.program-entry-pane-field div.program-event-time,
+.program-entry-pane-field div.program-event-host,
+.program-entry-pane-field div.program-event-venue,
+.view-invited-panelists div.field-content,
+.view-moderator div.field-content {color:#959595;font-weight:700}
+
+/* ARCHIVE EVENT LH Side INFO, same as above */
+.pane-node-field-event-date-sl section.field-name-field-event-date-sl div.field-items {color:#959595;font-weight:700}
+.pane-node-field-time-display section.field-name-field-time-display div.field-items{color:#959595;font-weight:700}
+.pane-node-field-program-venu .program-event-archive-venue p {color:#959595;font-weight:700}
+.pane-node-field-moderator-static .program-event-archive-moderator {color:#959595;font-weight:700}
+.pane-node-field-moderator-static .program-event-archive-moderator h2.program-event-label {color:#000;font-weight:700}
+.pane-node-field-panelists-static .program-event-archive-panelists p {color:#959595;font-weight:700}
+.program-entry-pane-field h2.program-event-label{color:#000;font-weight:900;}
+.field-name-field-please-rsvp {font-weight:900;}
+/*end move to landscape */
+
+
+.field-name-field-time-span {margin-bottom: 0;}
+.program-event-time-span ul {list-style-type: none;padding-left:0;margin:0;}
+
+
+.field-name-field-program-time-span {
+color:#000;
+font-size:2.2em;
+font-weight:900;
+margin-bottom:0;
+text-transform:uppercase;
+}
+.program-entry-title {
+/*color:#4e799b;*/
+  color:#3c75a4;
+font-weight:900;
+margin:0 0 10px 0;
+}
+
+#program-entry-panel .region-two-33-66-second .region-inner { 
+  border-left:2px solid #959595;
+}
+
+section.pane-node-field-invited-panelist h2.pane-title, section.program-entry-pane-moderator h2.pane-title, section.pane-invited-panelists-panel-pane-1 h2.pane-title, section.pane-moderator-panel-pane-1 h2.pane-title {
+  font-size:1em;
+  color:#000;
+  /* display:inline; */
+}
+.program-event-pane-date-m-d-y span, span.views-label-field-event-date-sl {
+  font-weight:bold;
+}
+
+
+/*.program-entry-pane-body, section.program-entry-pane-moderator { */
+
+
+.field-name-field-invited-panelist {
+  display:inline;
+}
+.field-name-field-invited-panelist div.field-items div.field-item{
+  display:inline;
+  margin-right:10px;
+}
+
+section.program-event-moderator a, .field-name-field-moderator a, .panelist-link a {font-weight:900;} 
+
+.views-field-field-job-title, .views-field-field-job-title div {display:inline;}
+.view-content .views-row, .views-row div {display:inline}
+
+.field-name-field-program-host {
+  clear:both;
+}
+
+/*PROGRAM ARCHIVE LABELS! */
+section.field-name-field-time-display h2.field-label, 
+section.field-name-field-program-venu h2.field-label, 
+section.field-name-field-moderator-static h2.field-label, 
+section.pane-node-field-panelists-static h2.pane-title,
+h2.program-event-archive-label, h2.program-event-label {
+  font-size:14px;
+  font-weight:bold;
+}
+h2.program-event-archive-label, h2.program-event-label {
+  display:inline;
+}
+.program-event-archive-venue h2, 
+.program-event-archive-venue p, 
+.program-event-archive-host p, 
+.program-event-archive-moderator p,
+.program-event-archive-panelists p {
+  display:inline;
+} 
+
+/*---- END PROGRAM ENTRY ----*/
+
+/* Lists inside of Node body NOT WORKING, WTF!?!?
+ul.program-event-node-body {
+  padding-left: 20px;
+} 
+*/
+/*---- SOCIAL MEDIA FOR NODES ----*/
+.sharetool{}
+.twitter-sharetool {}
+.twitter-sharetool .icon {
+  
+} 
+/*---- END MEDIA FOR NODES ----*/
+
+/* LIBRARY */
+.label-inline {
+  display:inline;
+} 
+
+
+
+

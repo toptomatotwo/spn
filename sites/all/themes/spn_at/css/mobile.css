@@ -1,0 +1,96 @@
+
+
+/*Mobile*/
+
+@media (max-width:320px) {
+
+  body {font-size:90%;}
+
+  body::before{
+    /* content: "Mobile media query (<480px) mobile.css fired";  */
+    font-weight: bold; 
+    display: block; 
+    text-align: center; 
+    background: rgba(255,255,0, 0.9); 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    z-index: 99; 
+
+  }
+
+
+/*SEARCH BOX ----*/
+
+
+/*-- S I D E B A R --*/
+/*-- HOME LOGO --*/
+#block-block-1 {
+  display:none;
+}
+/*-- SIDEBAR MENUS --*/
+nav#block-menu-menu-events ul li.menu-depth-1, nav#block-menu-menu-contact-join ul li.menu-depth-1, nav#block-menu-menu-network ul li.menu-depth-1 {
+  margin-bottom:1em;
+}
+
+/*-- SIDEBAR NEWS --*/
+
+/*MOVED TO SMALLTOUCH.PORTRAIT */
+
+/* END SIDEBAR NEWS --*/
+
+/*-- CALENDAR --*/
+
+/*-- END CALENDAR --*/
+
+/*---- END SIDEBAR --*/
+
+/*--MAIN CONTENT HOMEPAGE --*/
+header#main-content {background: none}
+
+/* article.node-landing-page {display:none;}  */
+
+.region-two-33-66-first{
+  float: none;
+display: block;
+width: 100% !important;
+}
+
+#homepage-logo {
+  width:478px;
+  margin:0;
+}
+
+
+
+/*ARCHIVE LANDING PAGE */
+body.page-node-71 h1#page-title {
+  font-size:1.5em;
+display:block;width:100%;text-align:center
+}
+
+
+
+
+/*EVENTS, ARCHIVE & CURRENT */
+/*
+.pane-node-field-time-span ul li {font-size:1.5em}
+.program-entry-title h1 {font-size:.9em;}
+span.date-display-single {width:100%;}
+.pane-node-field-event-date-sl .
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+} 

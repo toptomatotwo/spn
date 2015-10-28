@@ -1,0 +1,480 @@
+h1.panelist-bio-hdr {
+  background-color:#fff;
+  color:#454545;
+  text-transform:uppercase;
+}
+h1.moderator-bio-hdr {
+  background-color:#fff;
+  color:#454545;
+  text-transform:uppercase;
+  } 
+
+
+
+
+@media only screen and (min-width:1025px) {
+
+body.node-type-moderator #main-content, 
+body.node-type-panelist #main-content {
+	padding-top:25px;
+}
+
+
+h1#page-title {
+	display:none;
+}
+
+p {color:#959595;font-weight:900;}
+
+#block-block-7 p, #block-block-2 p{
+text-align:center; 
+color:#4e799b;
+text-transform:uppercase;
+font-weight:900;
+font-size:1.35em;
+}
+
+body.node-type-moderator #content, body.node-type-panelist #content {
+	margin-top:-80px;
+	/*z-index:-1; */
+}
+
+
+div.panelist-hdr, div.moderator-hdr {
+	background:url('images/panelist-hdr-bg.png')repeat-x 10px 13px;
+	width:680px;
+	text-align:right;
+	border:0px solid red;
+	}
+
+h1.panelist-bio-hdr {
+	display:inline;
+	
+	font-size:2.3em;
+	letter-spacing:2px;
+	padding-left:5px;
+	
+}
+h1.moderator-bio-hdr {
+	display:inline;
+	font-size:2.3em;
+	letter-spacing:2px;
+	padding-left:5px;
+	
+}
+.field-name-field-drop-cap-display-name {
+	text-transform:uppercase;
+	font-size:2.3em;
+	color:#999;
+	font-weight:900;
+	margin:0px 0 10px 7px;
+	padding:3px 0 0 0;
+	border:0px solid red;
+	height:110px;
+	position:relative;
+	left:-9px;
+	
+	}
+.dropcap {font-size:3.2em;padding-right:2px} 
+
+.dropcap {
+	/* font-size:3.2em; MOVED */
+	background-color:#fff;
+	color:#4e799b
+}
+.field-name-field-job-title {
+	color:#454545;font-weight:bold;
+	position:relative;
+	margin-top:20px;
+	padding-left:6px;
+	width:275px;
+	z-index:10;
+}
+
+.field-type-text-with-summary p {
+	margin-left:86px;
+}
+}
+
+
+
+
+
+@media only screen and (min-width:769px) and (max-width:1024px) { 
+/*TABLE LANDSCAPE */
+p {color:#959595;font-weight:900;}
+
+#block-block-7 p, #block-block-2 p{
+text-align:center; 
+color:#4e799b;
+text-transform:uppercase;
+font-weight:900;
+font-size:1.35em;
+}
+
+
+body.node-type-moderator #block-system-main {
+	margin-top:-95px;
+	z-index:-1;
+}
+
+body.node-type-panelist #block-system-main {
+	margin-top:-97px;
+	z-index:-1;
+}
+
+div.panelist-hdr, div.moderator-hdr {
+  background:url('images/panelist-hdr-bg.png')repeat-x 10px 14px;
+  width:700px; 
+  position:relative;
+  }
+h1.panelist-bio-hdr {
+  
+  width:190px;
+  font-size:2.3em;
+  letter-spacing:2px;
+  
+  padding-left:5px;
+  margin-left:518px; 
+}
+h1.moderator-bio-hdr {
+  width:255px;
+  font-size:2.3em;
+  letter-spacing:2px;
+  margin-left:442px;
+  padding-left:4px;
+  }
+ h1#page-title {
+	display:none;
+}
+/*
+.field-name-field-drop-cap-display-name {
+	text-transform:uppercase;
+	font-size:2.3em;
+	color:#999;
+	font-weight:900;
+	margin:0px 0 10px 7px;
+	padding:3px 0 0 0;
+	border:0px solid red;
+	height:110px;
+	position:relative;
+	left:-9px;
+	
+}	
+*/
+.dropcap {
+	/* font-size:3.2em; MOVED */
+	background-color:#fff;
+	color:#4e799b;
+	position:relative;
+	top:0px;
+}
+.field-name-field-job-title {
+	color:#454545;font-weight:bold;
+	position:relative;
+	margin-top:15px;
+	padding-left:6px;
+	width:275px;
+	z-index:10;
+}
+
+.field-type-text-with-summary p {
+	margin-left:86px;
+}
+}
+
+@media only screen and (min-width:581px) and (max-width:768px) {
+/* TABLET PORTRAIT */	
+/*div.panelist-hdr, div.moderator-hdr {
+  background:url('images/panelist-hdr-bg.png')repeat-x 10px 13px;
+  width:100%;
+  position:relative;
+  }
+h1.panelist-bio-hdr {
+  width:180px;
+  font-size:2.3em;
+  letter-spacing:2px;
+  padding-left:5px;
+  margin-left:352px;
+} */
+
+body.node-type-moderator #main-content, body.node-type-panelist #main-content {
+	padding-top:58px;
+} 
+
+div.panelist-hdr {
+  background:url('images/panelist-hdr-bg.png')repeat-x 10px 14px;
+  width:100%;
+  position:relative;
+  text-align:right;
+  }
+
+div.moderator-hdr {
+  background:url('images/panelist-hdr-bg.png')repeat-x 10px 13px;
+  width:100%;
+  position:relative;
+  text-align:right;
+  }
+h1.panelist-bio-hdr {
+  display:inline;
+  font-size:2.3em;
+  letter-spacing:1px;
+  padding-left:5px;
+  /* margin-left:205px; */
+  
+}
+h1.moderator-bio-hdr {
+  display:inline;
+  font-size:2.2em;
+  letter-spacing:1px;
+  /* margin-left:160px; */
+  padding-left:4px;
+  padding-right:0px;
+} 
+
+.dropcap {font-size:3.2em;padding-right:0px;position:relative;top:-1px} 
+
+.field-name-field-drop-cap-display-name {
+  text-transform:uppercase;
+  font-size:2.3em;
+  color:#999;
+  font-weight:900;
+  margin:0px 0 10px 7px;
+  padding:3px 0 0 0;
+  border:0px solid red;
+  height:110px;
+  position:relative;
+  left:-9px;
+  top:-3px;
+  }
+
+p {color:#959595;font-weight:900;}
+
+#block-block-7 p, #block-block-2 p{
+text-align:center; 
+color:#4e799b;
+text-transform:uppercase;
+font-weight:900;
+font-size:1.35em;
+}
+
+
+body.node-type-panelist #block-system-main {
+	margin-top:-82px;
+	z-index:-1;
+}
+
+body.node-type-moderator #block-system-main {
+	margin-top:-79px;
+	z-index:-1;
+}
+
+h1#page-title {
+	display:none;
+}
+
+.dropcap {
+	/* font-size:3.2em; MOVED */
+	background-color:#fff;
+	color:#4e799b
+}
+.field-name-field-job-title {
+	color:#454545;font-weight:bold;
+	position:relative;
+	margin-top:20px;
+	padding-left:6px;
+	width:275px;
+	z-index:10;
+}
+
+.field-type-text-with-summary p {
+	margin-left:86px;
+ }
+}
+
+@media only screen and (min-width:321px) and (max-width:580px){
+	/* SMALLTOUCH.LANDSCAPE */
+
+body.node-type-panelist #content {
+z-index:-1;
+margin-top:-56px;
+} 
+body.node-type-moderator #content {
+z-index:-1;
+margin-top:-54px;
+}
+#block-system-main {
+/*	margin-top:-100px;  */
+	z-index:-1;
+}
+
+h1#page-title {
+	display:none;
+}
+
+div.panelist-hdr, div.moderator-hdr {
+	background:url('images/panelist-hdr-bg.png')repeat-x 10px 8px;
+	background-size:1px 16px;
+	text-align:right;
+	border:0px solid yellow;
+	position:relative;
+	z-index:-1;
+	}
+
+h1.panelist-bio-hdr {
+	background-color:#fff;
+	font-size:1.5em;
+	letter-spacing:2px;
+	color:#454545;
+	display:inline;
+	padding-left:5px;
+	
+}
+h1.moderator-bio-hdr {
+	background-color:#fff;
+	font-size:1.5em;
+	display:inline;
+	letter-spacing:2px;
+	color:#454545;
+	margin-left:0px;
+	padding-left:3px;
+}
+
+#block-block-7 p, #block-block-2 p{
+text-align:center; 
+color:#4e799b;
+text-transform:uppercase;
+font-weight:900;
+font-size:1.35em;
+}
+
+
+.dropcap {
+	font-size:3.2em;
+	background-color:#fff;
+	color:#4e799b
+}
+.field-name-field-drop-cap-display-name {
+position: relative !important;
+top: 0px;
+padding: 0;
+margin:0 0 -26px 0;
+clear: both;
+border: 0px solid red;
+text-transform: uppercase;
+color: #959595;
+font-weight: 900;
+font-size:1.4em
+	}
+.field-name-field-drop-cap-display-name p {
+margin-bottom:0;
+}
+
+p {color:#959595;font-weight:900;}
+
+.field-name-field-job-title {
+	color:#454545;font-weight:bold;
+	position:relative;
+	
+	padding-left:6px;
+	width:275px;
+	z-index:10;
+}
+
+.field-type-text-with-summary p {
+	margin-left:86px;
+ }
+
+/* NOT WORKING 	
+.field-name-field-event-reference {
+border:1px solid red;
+		position:relative;
+	z-index:10;
+} */
+}
+
+
+@media only screen and (max-width:320px) {
+	/* SMALLTOUCH.PORTRAIT */
+p {color:#959595;font-weight:900;}
+body.node-type-panelist #content, body.node-type-moderator #content {
+z-index:-1;
+margin-top:-41px;
+}
+
+
+h1#page-title {
+	display:none;
+}
+
+#block-block-7 p, #block-block-2 p{
+text-align:center; 
+color:#4e799b;
+text-transform:uppercase;
+font-weight:900;
+font-size:1.35em;
+}
+
+div.panelist-hdr, div.moderator-hdr {
+	background:url('images/panelist-hdr-bg.png')repeat-x 10px 7px;
+	background-size:1px 12px;
+	text-align:right;
+	border:0px solid yellow;
+	}
+	
+h1.panelist-bio-hdr {
+	background-color:#fff;
+	display:inline;
+	font-size:1.2em;
+	letter-spacing:2px;
+	color:#454545;
+	padding-left:3px;
+}
+h1.moderator-bio-hdr {
+	background-color:#fff;
+	font-size:1.2em;
+	display:inline;
+	letter-spacing:2px;
+	color:#454545;
+	margin-left:0px;
+	padding-left:3px;
+	
+}
+.dropcap {
+	font-size:3.4em; 
+	background-color:#fff;
+	color:#4e799b;
+	margin:0;
+}
+.field-name-field-drop-cap-display-name {
+	position:relative !important;
+	top:0px;
+	padding:0;
+	margin:0;
+	clear:both;
+	border:0px solid red;
+	text-transform:uppercase;
+	color:#959595;
+	font-weight:900;
+}
+.field-name-field-drop-cap-display-name p{
+margin:0;padding:0;
+position:relative;
+margin-bottom:-10px;
+}
+
+.field-name-field-job-title {
+	color:#454545;font-weight:bold;
+	position:relative;
+	padding-left:0px;
+	width:275px;
+	z-index:10;
+	margin-bottom:5px;
+	font-size:.9em;
+
+}
+
+.field-type-text-with-summary p {
+font-size:.9em;
+ }
+}

@@ -1,0 +1,457 @@
+
+a, a:visited, a:hover, a:link {
+	color:#3c75a4;
+	/* color:#3c75a4; Too BLUE,SATURATED,*/
+	/* color:#4e799b; */
+	/*color:#6699cc; */
+} 
+/* Global 
+The Blue was:#799bb6;
+The Blue is:4e799b
+*/
+body {
+font-family:'Lucida Grande', 'lucida_webfont', 'Open Sans', Helvetica; 
+	/*font-family:'Lucida Grande', 'lucida_webfont', 'Arial Black'; */
+	
+}
+body.page-node-269 .field-name-field-please-rsvp {
+	display:none;
+}
+
+body.page-node-194 #page {
+/* background: url('images/bg_ref_events.png')0 15px; */
+}
+/*
+body.node-type-landing-page #page {
+ background: url('images/bg-ref-events-landing.png')0 18px; 
+} */
+
+
+iframe {display:block;}
+
+#monitor {
+	position:absolute;
+	width:75px;
+	height:35px;
+	background-color: #000;
+	top:100px;
+	left:0;
+	color:#f00;
+	display:none;
+}
+#messages {
+	display:none;
+} 
+a.active-trail, a.tactive {
+/*	color:#4e799b !important; */
+ color:#3c75a4 !important;
+
+}
+/*MENU BAR ELEMENTS 
+->MOVED TO RESPONSIVE STYLESHEETS
+END MENU BAR ELS */
+
+#node-14 h1 {
+	display:none;
+}
+/* ---MY GLOBAL LAYOUT ELEMENTS, BORDERS ETC. */
+.page {
+  border-left:1px solid #959595;
+  border-right:1px solid #959595;
+  overflow:hidden;
+}
+
+#columns {
+  margin-top:17px;
+  padding-top:.8em;
+border-top: 2px solid #959595;  
+}
+
+.region-sidebar-first {
+  min-height: 50em;
+  /* border-right:1px solid #a7a7a7; PREV PROVIDED BORDER */
+}
+
+#content-column .content-inner {
+	border-left:1px solid #a7a7a7;
+}
+/*--- MENU BAR ELEMENTS, SEARCH, SOCIAL MEDIA ICONS ---*/
+/* used for mobile only so turn off display here */
+a#mobile-home-link img {
+ display:none;
+}
+a#mobile-search {display:none;}
+
+/* -- PRIMARY M E N U, GLOBAL NAV  */
+ul.menu {
+	list-style-type:none !important;
+
+}
+ul.menu li{
+	text-align: center;
+}
+
+#menu-bar {position:relative}
+
+
+.primary-menu li a {
+		color:#959595;
+	font:'Lucida Grande';
+
+}
+.primary-menu li a:hover {
+	/* color:#4e799b; */
+	color:#3c75a4;
+	text-decoration:none;
+}
+
+#about-menu-mobile-popup {
+background-color:#fff;
+border:3px solid #666;
+border-style:dotted solid;
+	position:absolute;
+	margin:0 auto;
+	display:none;
+	height:50px;
+	width:300px;
+	position:absolute;
+    top:113px;
+    left:-2px;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+	padding:10px 0px;
+	z-index:2;
+}
+ul#about-menu {
+	padding-left:20px;
+}
+ul#about-menu li {
+	display:block;margin:0 25px;
+	text-transform:uppercase;
+	font-weight:900;
+}
+
+ul.primary-menu li.main-m-bullets:last-child {display:none !important;}
+
+/* END PRIMARY MENU, GL0BAL NAV */
+
+/*-- SIDEBAR ---*/
+body.front .region-sidebar-first { /*homepage */
+	min-height: 50em;
+	border-right:1px solid #a7a7a7;
+	/* padding-top:38px;  This causes problem in mobile and has to be moved */
+}
+
+.region-sidebar-first { /*all other pages, position the double lines */
+	min-height: 50em;
+	border-right:1px solid #a7a7a7;
+	padding-top:4px;
+}
+
+.page {
+	border-left:1px solid #959595;
+	border-right:1px solid #959595;
+	overflow:hidden;
+}
+
+#content-column {
+	
+}
+
+#breadcrumb {display:none;}
+
+
+
+/* SIDEBAR NEWS HOMEPAGE */
+
+section#block-views-sidebar-homepage-news-block h2.block-title { /*MOVE TO RESPONSIVE??? */
+/*div.region-sidebar-first h2.block-title:first-child { */
+	color:#a6a6a6;
+	text-transform:uppercase;
+}
+h3.sidebar-news-date {
+	color:#a6a6a6;
+}
+
+h2.sidebar-news-title {
+	
+	font-weight:900;	
+} 
+
+.block-content img.site-logo {
+	position:relative;
+/* 	margin-left:10px */
+}
+
+.region-sidebar-first h2, .region-sidebar-first h3 {
+	text-align: center;
+	text-transform: uppercase;
+	color:#a6a6a6;
+}
+
+h2.menu-header a{
+	text-align:center;
+	font-weight:800;
+	font-size:1em;
+	line-height:1.3;
+}
+
+.sidebar-news-venue-host, h3.sidebar-news-host, .view-id-sidebar_homepage_news .views-field-field-program-venu {
+color:#a6a6a6; 
+font-weight:900;
+}
+p.sidebar-news-content {
+	color:#a6a6a6;
+	font-weight:900;
+}
+
+.views-field-field-program-venu .field-content { /*NEED TO ADD TO HOST, NOT JUST VENUE */
+display:block;
+text-align:center;
+
+}
+
+p.sidebar-news-content {
+	line-height:1.3;
+	/* text-align:justify; */
+}
+
+h3.sidebar-news-host {
+text-transform:none !important;	
+	text-align:center;
+	
+}
+#block-block-1 {
+	margin-bottom: 0 !important;
+}
+a.sidebar-first-header-link {
+	display:block;
+	width:100%;
+	text-align:center;
+	/*color:#4e799b;*/
+	color:#3c75a4;
+	text-transform: uppercase;
+	font-weight:900;
+	font-size:1.2em;
+}
+/* END SIDEBAR NEWS */
+/* SIDEBAR MENUS  */
+
+nav#block-menu-menu-events ul.menu, 
+nav#block-menu-menu-insights ul.menu, 
+nav#block-menu-menu-archives ul.menu, 
+nav#block-menu-menu-network ul.menu {
+	padding-left:0;
+}
+
+nav#block-menu-menu-events ul.menu li.expanded,
+nav#block-menu-menu-insights ul.menu li.expanded {
+	margin-bottom: 0;
+}
+
+/* END SIDE MENUS */
+
+.sidebar-news-rsvp p{
+	font-weight:900;
+/* color:#a6a6a6; WAS */
+color:#666;
+}
+#columns {
+	margin-top:17px;
+	padding-top:.8em;
+border-top: 2px solid #959595;	
+}
+/*---- MAIN CONTENT ----*/
+
+h1#page-title {
+	padding-top:0;margin-top:0;
+}
+#main-content-header {
+	padding-top: 0;
+}
+
+/* LANDING PAGES */
+body.node-type-landing-page h1#page-title {
+text-transform: uppercase;
+/* display:inline; */
+background-color:#fff;
+/* color:#3c75a4; */
+}
+body.page-node-80 h1#page-title {
+color:#434343;
+}
+body.page-node-249 h1#page-title, body.page-node-85 h1#page-title, body.page-node-118 h1#page-title, body.page-node-117 h1#page-title {
+color:#3c75a4;
+}
+
+/*PROGRAM ENTRY PANE ----*/
+
+.region-two-33-66-first {
+	width:31.2% !important; /* Beware this is an override, as per MBlocks comment */
+}
+
+.program-event-time-span {margin-bottom: 0;}
+
+.program-entry-pane-body p {color:#959595;font-weight:700}
+.program-entry-pane-field div.field-items, 
+.program-entry-pane-field div.program-event-time,
+.program-entry-pane-field div.program-event-host,
+.program-entry-pane-field div.program-event-venue,
+.view-invited-panelists div.field-content,
+.view-moderator div.field-content {color:#959595;font-weight:700}
+
+/* ARCHIVE EVENT LH Side INFO, same as above */
+.pane-node-field-event-date-sl section.field-name-field-event-date-sl div.field-items {color:#959595;font-weight:700}
+.pane-node-field-time-display section.field-name-field-time-display div.field-items{color:#959595;font-weight:700}
+.pane-node-field-program-venu .program-event-archive-venue p, .pane-node-field-program-host .program-event-archive-host {color:#959595;font-weight:700}
+.pane-node-field-moderator-static .program-event-archive-moderator {color:#959595;font-weight:700}
+.pane-node-field-moderator-static .program-event-archive-moderator h2.program-event-label {color:#000;font-weight:700}
+.pane-node-field-panelists-static .program-event-archive-panelists p {color:#959595;font-weight:700}
+.pane-node-field-program-host .program-event-archive-host h2, .program-entry-pane-field h2.program-event-label{color:#000;font-weight:900;}
+.field-name-field-please-rsvp {font-weight:900;}
+/*end move to landscape */
+
+
+.field-name-field-time-span {margin-bottom: 0;}
+.program-event-time-span ul {list-style-type: none;padding-left:0;margin:0;}
+
+
+.field-name-field-program-time-span {
+color:#000;
+font-size:2.2em;
+font-weight:900;
+margin-bottom:0;
+text-transform:uppercase;
+}
+
+
+#program-entry-panel .region-two-33-66-second .region-inner { 
+	border-left:2px solid #959595;
+}
+
+section.pane-node-field-invited-panelist h2.pane-title, section.program-entry-pane-moderator h2.pane-title, section.pane-invited-panelists-panel-pane-1 h2.pane-title, section.pane-moderator-panel-pane-1 h2.pane-title {
+	font-size:1em;
+	color:#000;
+	/* display:inline; */
+}
+.program-event-pane-date-m-d-y span, span.views-label-field-event-date-sl {
+	font-weight:bold;
+}
+
+
+/*.program-entry-pane-body, section.program-entry-pane-moderator { */
+
+
+.field-name-field-invited-panelist {
+	display:inline;
+}
+.field-name-field-invited-panelist div.field-items div.field-item{
+	display:inline;
+	margin-right:10px;
+}
+
+section.program-event-moderator a, .field-name-field-moderator a, .panelist-link a {font-weight:900;}	
+
+.views-field-field-job-title, .views-field-field-job-title div {display:inline;}
+.view-content .views-row, .views-row div {display:inline}
+
+.field-name-field-program-host {
+	clear:both;
+}
+
+/*PROGRAM ARCHIVE LABELS! */
+section.field-name-field-time-display h2.field-label, 
+section.field-name-field-program-venu h2.field-label, 
+section.field-name-field-moderator-static h2.field-label, 
+section.pane-node-field-panelists-static h2.pane-title,
+h2.program-event-archive-label, h2.program-event-label {
+	font-size:14px;
+	font-weight:bold;
+}
+h2.program-event-archive-label, h2.program-event-label {
+	display:inline;
+}
+.program-event-archive-venue h2, 
+.program-event-archive-venue p, 
+.program-event-archive-host p, 
+.program-event-archive-moderator p,
+.program-event-archive-panelists p {
+	display:inline;
+} 
+
+/*---- END PROGRAM ENTRY ----*/
+
+/*---- SOCIAL MEDIA FOR NODES ----*/
+/*
+.pane-custom.pane-2 {
+	position:relative;
+	top:-10px;
+	height:30px !important;
+	border:0px solid red;
+}
+
+.pane-custom.pane-2 p{height:10px;}
+.sharetool{}
+.twitter-sharetool {}
+.twitter-sharetool .icon {
+	
+} */
+/*---- ABOUT, JOIN, CONTACT PAGE ----*/
+nav#block-menu-menu-contact-join ul{
+	padding-left:0;
+	}
+
+/*---- END MEDIA FOR NODES ----*/
+
+
+/*--- RESOURCES ---*/
+
+body.node-type-resources-basic-page h1#page-title {
+	text-transform:uppercase;
+	margin-bottom: 0;
+	color:#434343;
+}
+body.node-type-resources-basic-page h2 {
+	text-transform:uppercase;
+	margin-bottom: 0;
+	color:#434343;
+	font-size:1.2em
+}
+
+ul.resources {
+	list-style-type:none;
+	margin-top:0;
+	font-weight:900;
+	margin-bottom:18px;
+}
+
+/* SUBMIT CALENDAR EVENT */
+body.page-node-254 #main-content {
+padding-top:40px;
+}
+
+body.page-node-254 #main-content h1#page-title {
+font-size:2.5em;
+text-transform: uppercase;
+}
+
+body.page-node-254 #submit-green-calendar-event {margin-top:25px}
+body.page-node-254 #submit-green-calendar-event label {
+float:left;
+}
+
+/* JOIN NOT WORKING 
+#subscribing-to {
+	display:none;
+} */ 
+/* CONTACT ---*/
+body.page-contact h1#page-title {text-transform:uppercase;}
+
+/* LIBRARY */
+.label-inline {
+	display:inline;
+}	
+.redtext {
+	color:#ff0000;
+}

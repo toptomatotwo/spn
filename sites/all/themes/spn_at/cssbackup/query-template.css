@@ -1,0 +1,22 @@
+@media only screen and (min-width:1025px) {
+/* DESKTOP */
+
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px) { 
+/*TABLE LANDSCAPE */
+
+}
+
+@media only screen and (min-width:581px) and (max-width:768px) {
+/* TABLET PORTRAIT */	
+
+}
+
+@media only screen and (min-width:481px) and (max-width:580px){
+	/* SMALLTOUCH.LANDSCAPE */
+}	
+
+@media only screen and (max-width:481px) {
+	/* SMALLTOUCH.PORTRAIT */
+}

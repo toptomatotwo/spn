@@ -1,0 +1,314 @@
+/* GLOBABL INSIGHTS */
+#page-title {
+	text-transform:uppercase;
+	color:#434343;
+	background-color:#fff;
+	}
+
+@media only screen and (min-width:1025px) {
+/* DESKTOP */
+
+/*--- SIDEBAR --*/
+
+/* SIDEBAR NAV --*/
+nav#block-menu-menu-insights ul {
+	padding-left:0;
+}
+/*
+nav#block-menu-menu-insights li.menu-depth-1 {
+	font-size:1.2em;
+	text-transform:uppercase;
+	font-weight:900;
+	margin-bottom:40px;
+}
+
+nav#block-menu-menu-insights li.menu-depth-1:first-child {
+	font-size:1.2em;
+}
+*/
+nav#block-menu-menu-insights li.menu-depth-1 a{
+color:#959595;
+}
+nav#block-menu-menu-insights li.menu-depth-1 a.active-trail{
+
+	color:#3c75a4;
+}
+
+nav#block-menu-menu-insights li.menu-depth-2{
+	font-size:.75em;
+	text-transform:uppercase;
+	font-weight:900;
+	margin-bottom:10px
+}
+
+nav#block-menu-menu-insights li.menu-depth-2:first-child {
+margin-top:-10px	
+}
+/* END SIDEBAR NAV --*/
+
+#main-content {
+	padding-top: 43px;
+}
+.content-inner {
+	margin-right:5% !important;
+}
+#main-content-header {
+	background:url('images/bg-hdr-insights-landing.png')repeat-x 10px 24px;
+	border:0px solid red;
+	padding-top:0;
+	height:67px;
+}
+
+#main-content-header h1#page-title{ 
+display:block;
+font-size:4.7em;
+width:322px;
+}
+
+.field-items {
+	position:relative;
+}
+
+.image-style-top-level-landing-page{
+	position:absolute;
+	right:0;
+	top:0;
+	}
+}
+
+
+
+
+@media only screen and (min-width:769px) and (max-width:1024px) { 
+/*TABLET LANDSCAPE */
+
+/*--- SIDEBAR --*/
+
+/* SIDEBAR NAV --*/
+nav#block-menu-menu-insights ul {
+	padding-left:0;
+}
+/*
+nav#block-menu-menu-insights li.menu-depth-1 {
+	font-size:1.2em;
+	text-transform:uppercase;
+	font-weight:900;
+	margin-bottom:40px;
+}
+
+nav#block-menu-menu-insights li.menu-depth-1:first-child {
+	font-size:1.2em;
+}
+*/
+nav#block-menu-menu-insights li.menu-depth-1 a{
+color:#959595;
+}
+nav#block-menu-menu-insights li.menu-depth-1 a.active-trail{
+
+	color:#3c75a4;
+}
+
+nav#block-menu-menu-insights li.menu-depth-2{
+	font-size:.75em;
+	text-transform:uppercase;
+	font-weight:900;
+	margin-bottom:10px
+}
+
+nav#block-menu-menu-insights li.menu-depth-2:first-child {
+margin-top:-10px	
+}
+/* END SIDEBAR NAV --*/
+
+#main-content {
+	padding-top: 47px;
+}
+.content-inner {
+	margin-right:5% !important;
+}
+#main-content-header {
+	background:url('images/bg-hdr-insights-landing.png')repeat-x 10px 25px;
+	border:0px solid red;
+	padding-top:0;
+	height:67px;
+}
+#page-title {
+	font-size:4em;
+	display:inline;
+	margin-top:0;
+	padding-right:10px;
+}
+.field-items {
+	position:relative;
+}
+
+.image-style-top-level-landing-page{
+	position:absolute;
+	right:0;
+	top:0;
+	}
+}
+
+
+
+
+
+@media only screen and (min-width:581px) and (max-width:768px) {
+/* TABLET PORTRAIT */	
+
+
+/*--- SIDEBAR --*/
+
+/* SIDEBAR NAV --*/
+nav#block-menu-menu-insights ul {
+	padding-left:0;
+}
+/*
+nav#block-menu-menu-insights li.menu-depth-1 {
+	font-size:1.2em;
+	text-transform:uppercase;
+	font-weight:900;
+	margin-bottom:40px;
+}
+
+nav#block-menu-menu-insights li.menu-depth-1:first-child {
+	font-size:1.2em;
+}
+*/
+nav#block-menu-menu-insights li.menu-depth-1 a{
+color:#959595;
+}
+nav#block-menu-menu-insights li.menu-depth-1 a.active-trail{
+
+	color:#3c75a4;
+}
+
+nav#block-menu-menu-insights li.menu-depth-2{
+	font-size:.75em;
+	text-transform:uppercase;
+	font-weight:900;
+	margin-bottom:10px
+}
+
+nav#block-menu-menu-insights li.menu-depth-2:first-child {
+margin-top:-10px	
+}
+/* END SIDEBAR NAV --*/
+
+#main-content {
+	padding-top: 43px;
+}
+.content-inner {
+	margin-right:5% !important;
+}
+body.page-node-81 #main-content-header {
+	background:url('images/bg-hdr-insights-landing.png')repeat-x 10px 23px;
+	background-size:1px 28px;
+	border:0px solid red;
+	padding-top:0;
+	height:65px;
+}
+body.page-node-81 #page-title {
+ position: relative;top:3px;
+  font-size:3.5em;
+	display:block;
+	margin-top:0;
+	width:257px;
+}
+article#node-81 img {  /*INSIGHTS img */
+  width:239px;
+  margin-top:1px;
+  }
+
+.field-items {
+	position:relative;
+}
+
+.image-style-top-level-landing-page{
+	position:absolute;
+	right:0;
+	top:0;
+	}
+}
+
+@media only screen and (min-width:321px) and (max-width:580px) {
+	/* SMALLTOUCH.LANDSCAPE */
+#main-content {
+	padding-top: 10px;
+}
+
+body.page-node-81 #main-content-header {
+	background:url('images/bg-hdr-insights-landing.png')repeat-x 10px 10px;
+	border:0px solid red;
+	padding-top:0;
+	height:67px;
+	text-align:center;
+}
+body.page-node-81  #page-title {
+	text-transform: uppercase;
+display: inline;
+background-color: #fff;
+padding:0 3px;
+font-size:3.5em;
+  top:-9px;
+  position:relative;
+
+}
+ .field-items {
+	position:relative;
+}
+.image-style-top-level-landing-page{
+  position:relative;
+  margin:20px auto 0 auto;
+  width:60%;
+  border:0px solid red;
+  display:block;
+ }
+
+/*--- SIDEBAR --*/
+
+/* SIDEBAR NAV --*/
+nav#block-menu-menu-insights ul {
+	padding-left:0;
+	}
+
+}
+
+@media (max-width:320px) { 
+/* SMALLTOUCH PORTRAIT */
+#main-content {padding-top: 0}	
+/*INSIGHTS LANDING PAGE */
+body.page-node-81 header#main-content-header {
+	background:url('images/bg-hdr-insights-landing.png')repeat-x 10px 13px;
+	background-size:1px 18px;
+	border:0px solid red;
+padding-top:0;
+	text-align:center;
+}
+
+body.page-node-81 h1#page-title {
+  font-size:2.2em;
+display:inline;margin:0 auto;background-color:#fff;
+padding:0 3px;
+}
+
+.image-style-top-level-landing-page{
+	position:relative;
+	right:0;
+	top:0;
+	max-width:100%;
+}
+
+/* SIDE MENU --*/
+nav#block-menu-menu-insights ul {
+	padding-top: 0;margin-top: 0;
+
+}
+
+nav#block-menu-menu-insights li.menu-depth-1 {
+	font-size:1.2em;
+	text-transform:uppercase;
+	font-weight:900;
+	margin-bottom:10px;
+	}
+}

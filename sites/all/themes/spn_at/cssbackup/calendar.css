@@ -1,0 +1,1654 @@
+/* CALENDAR GLOBAL */
+
+
+
+/* END CALENDAR GLOBAL */
+@media only screen and (min-width:1025px) {
+/* DESKTOP */
+ul.pager li.date-prev, ul.pager li.date-next  {
+	background:none !important;
+	margin-top:1px;
+	text-transform:lowercase
+}
+ul.pager li.date-prev {margin-right:8px}
+
+/* ul.pager li.date-prev a, ul.pager li.date-next  a{font-size:1.3em !important} */
+
+ul.pager {
+	
+}
+
+/* CONSIDER ADDING THESE BACK TO THE MODULE CSS INSTEAD OF SEPARATE FILE */
+
+/**** MINI SIDEBAR BLOCK ****/
+#block-views-program-event-calendar-block-1 .view-program-event-calendar ul.pager li {
+	padding:0;
+}
+
+#block-views-program-event-calendar-block-1 .date-nav {
+	padding-bottom:0;
+}
+
+#block-views-program-event-calendar-block-1 .date-nav-wrapper ul.pager a{
+	font-size:1.9em;
+	top:-4px;
+	position:relative;
+
+}
+
+/**** YEAR ****/
+.view-display-id-page .date-heading {
+	background:url('images/bg-calendar-hdr-year.png');
+overflow: visible;
+}
+
+
+/*PAGER! */
+.view-display-id-page .date-nav-wrapper ul.pager li.date-prev a, .view-display-id-page .date-nav-wrapper ul.pager li.date-next a {
+	font-size:1.5em;
+	color:#000;
+}
+
+.view-display-id-page .date-nav-wrapper ul.pager li.date-prev {
+position: absolute;
+top:-1px;
+right: 70px;
+left: auto;
+text-align: right;
+width: auto;
+z-index: 1;
+}
+
+.view-display-id-page .date-nav-wrapper ul.pager li.date-next {
+position: absolute;
+right: 2px;
+text-align: right;
+top:-1px;
+width: auto;
+z-index: 1;
+}
+
+.view-display-id-page .date-nav {margin-bottom:0 !important; padding-bottom:.2em !important; border:none !important;}
+#year-calendar, #year-calendar tbody tr{border:none !important;}
+/* #year-calendar tr td:nth-child(2){
+	background-color: :#ccc;
+	padding-left:20px;
+} */
+#year-calendar td.year-pr {
+	padding-right:13px;
+	padding-bottom:1em;
+}
+
+#year-calendar td.year-pl {
+	padding-left:13px;
+	padding-bottom:1em;
+} 
+
+table.mini td{border:1px solid #ccc !important;}
+#year-calendar tr{background-color:#fff !important}
+.view-display-id-page .date-heading h3{
+	padding:0 4px !important;
+	display:inline;
+	background-color:#fff;
+	color:#3c75a4 !important;
+	font-size:3.2em !important;
+}
+
+.view-display-id-page .mini-calendar-date-heading {
+overflow: visible;
+text-transform:uppercase;
+font-size:1.6em;
+}
+.mini-calendar-date-heading {margin-bottom:7px;}
+
+.view-display-id-page .mini-calendar-date-heading a{
+background-color:#fff;
+color:#3c75a4 !important;
+display:block;
+font-weight:100;
+text-decoration:underline !important;
+}
+.view-display-id-page .date-nav {
+	background-color:#fff !important;
+}
+
+
+/**** MONTH ****/
+header#main-content-header #tasks ul.tabs.primary li {
+	text-transform:uppercase;
+}
+.view-display-id-page_1 .date-heading {
+	background:url('images/bg-calendar-hdr-month.png');
+overflow: visible;
+}
+
+/*PAGER! */
+.view-display-id-page_1 .date-nav-wrapper ul.pager li.date-prev a, .view-display-id-page_1 .date-nav-wrapper ul.pager li.date-next a {
+	font-size:1.5em;
+}
+
+.view-display-id-page_1 .date-nav-wrapper ul.pager li.date-prev {
+position: absolute;
+right: 70px;
+left: auto;
+text-align: right;
+top: 0px;
+width: auto;
+z-index: 1;
+}
+
+.view-display-id-page_1 .date-nav-wrapper ul.pager li.date-next {
+position: absolute;
+right: 2px;
+text-align: right;
+top: 0px;
+width: auto;
+z-index: 1;
+}
+
+.view-display-id-page_1 .date-heading h3{
+	padding:0 4px !important;
+	display:inline;
+	background-color:#fff;
+	color:#606060 !important;
+	font-size:3.2em !important;
+}
+
+.calendar-calendar th.days {
+/* background-color: #eee; */
+background-color: #fff !important;
+color:#3c75a4;;
+text-decoration: underline;
+font-weight: bold;
+/* border: 1px solid #ccc; */
+border:none !important;
+}
+.calendar-calendar td.date-box  {
+	background-color: #fff;
+	border:none; 
+}
+
+.calendar-calendar td.date-box  {
+	/* background:url('images/bg-td-date-box.gif') no-repeat; */
+}
+.view-display-id-page_1 tr.date-box, .view-display-id-page_1 tr.single-day {
+	border:none;
+}
+.view-display-id-page_1 td.single-day {
+	/* background:url('images/bg-td-single-day-2.gif') no-repeat !important; */
+	border:none;
+	min-height:72px !important;
+	border-bottom:2px solid #aaa;
+	border-left:2px solid #aaa;
+/*	padding-bottom:29px !important; */
+}
+td.date-box {border-left:2px solid #aaa !important;}
+tr.single-day {
+/*height:101px; */
+height:72px;
+}
+.view-display-id-page_1 .views-field-title a, .view-display-id-page_1 .date-display-single{
+	color:#fff;
+}
+/**** WEEK ****/
+
+/*PAGER! */
+.view-display-id-page_2 .date-nav-wrapper ul.pager li.date-prev a, .view-display-id-page_2 .date-nav-wrapper ul.pager li.date-next a {
+	font-size:1.5em;
+	color:#fff;
+}
+
+.view-display-id-page_2 .date-nav-wrapper ul.pager li.date-prev {
+position: absolute;
+top:-1px;
+right: 70px;
+left: auto;
+text-align: right;
+width: auto;
+z-index: 1;
+}
+
+.view-display-id-page_2 .date-nav-wrapper ul.pager li.date-next {
+position: absolute;
+right: 2px;
+text-align: right;
+top:-1px;
+width: auto;
+z-index: 1;
+}
+
+
+th.calendar-day-holder {background-color:#fff;}
+.calendar-agenda-hour {
+	background-color:#fff;
+}
+.calendar-agenda-items {background-color:#fff !important;}
+
+.calendar-agenda-hour {padding-left:2px}
+.view-display-id-page_2 .date-heading {
+	background:url('images/bg-calendar-hdr-week.png'); 
+overflow: visible;
+}
+
+.view-display-id-page_2 .date-heading h3 {
+padding:0 4px !important;
+	display:inline;
+	background-color:#fff;
+	color:#666 !important;
+font-size:1.9em !important;
+}
+
+.view-display-id-page_2 .weekview {
+background-color:#4e799b !important;
+color:#fff;
+}
+.view-display-id-page_2 .weekview .field-content a {
+	color:#fff;
+}
+/**** DAY ****/
+/**** PAGER ***/
+.view-display-id-page_3 .date-nav-wrapper ul.pager li.date-prev a, .view-display-id-page_3 .date-nav-wrapper ul.pager li.date-next a {
+	font-size:1.3em;
+}
+
+.view-display-id-page_3 .date-nav-wrapper ul.pager li.date-prev {
+position: absolute;
+top:-1px;
+right: 54px;
+left: auto;
+text-align: right;
+width: auto;
+z-index: 1;
+}
+
+.view-display-id-page_3 .date-nav-wrapper ul.pager li.date-next {
+position: absolute;
+right: -3px;
+text-align: right;
+top:-1px;
+width: auto;
+z-index: 1;
+}
+
+.view-display-id-page_3 .date-heading {
+	background:url('images/bg-calendar-hdr-day.png'); 
+overflow: visible;
+}
+
+.view-display-id-page_3 .date-heading h3{
+	padding:0 4px !important;
+	display:inline;
+	background-color:#fff;
+	color:#606060 !important;
+	font-size:1.9em !important;
+	letter-spacing:-.02em;
+}
+
+.view-display-id-page_3 ul.pager li.date-prev, .view-display-id-page_3 ul.pager li.date-next{background:none !important;}
+.view-display-id-page_3 ul.pager li.date-prev {right:52px;}
+.view-display-id-page_3 ul.pager li.date-prev a, .view-display-id-page_3 ul.pager li.date-next a{color:#fff;}
+
+.view-display-id-page_3 .dayview {
+background-color:#4e799b !important;
+color:#fff;
+}
+.view-display-id-page_3 .dayview a, .view-display-id-page_3 .dayview a:visited {
+text-decoration: underline;
+color:#fff;
+font-size:1.3em;
+}
+.view-display-id-page_3 .dayview span.date-display-single  {
+color:#fff;
+font-size:1.3em;	
+}
+.view-display-id-page_3 .views-field-field-time-display {
+	font-size:1.3em; 
+}
+#submit-event {
+	margin-bottom:50px;
+}
+#submit-event a {
+font-weight: 900;
+	border:2px solid #3c75a4;
+	padding:3px 8px;
+	font-size:1.5em;
+}
+
+}
+@media only screen and (min-width:769px) and (max-width:1024px) { 
+/*TABLET LANDSCAPE */
+
+ul.pager li.date-prev, ul.pager li.date-next  {
+	background:none !important;
+	margin-top:1px;
+	text-transform:lowercase
+}
+ul.pager li.date-prev {margin-right:8px}
+
+/* ul.pager li.date-prev a, ul.pager li.date-next  a{font-size:1.3em !important} */
+
+ul.pager {
+	
+}
+
+/* CONSIDER ADDING THESE BACK TO THE MODULE CSS INSTEAD OF SEPARATE FILE */
+
+/**** MINI SIDEBAR BLOCK ****/
+#block-views-program-event-calendar-block-1 .view-program-event-calendar ul.pager li {
+	padding:0;
+}
+
+#block-views-program-event-calendar-block-1 .date-nav {
+	padding-bottom:0;
+}
+
+#block-views-program-event-calendar-block-1 .date-nav-wrapper ul.pager a{
+	font-size:1.9em;
+	top:-4px;
+	position:relative;
+
+}
+
+/**** YEAR ****/
+/*PAGER! */
+.view-display-id-page .date-nav-wrapper ul.pager li.date-prev a, .view-display-id-page .date-nav-wrapper ul.pager li.date-next a {
+	font-size:1.5em;
+	color:#000;
+}
+
+.view-display-id-page .date-nav-wrapper ul.pager li.date-prev {
+position: absolute;
+top:0px;
+right: 70px;
+left: auto;
+text-align: right;
+width: auto;
+z-index: 1;
+}
+
+.view-display-id-page .date-nav-wrapper ul.pager li.date-next {
+position: absolute;
+right: 2px;
+text-align: right;
+top:0px;
+width: auto;
+z-index: 1;
+}
+
+
+
+
+.view-display-id-page .date-heading {
+	background:url('images/bg-calendar-hdr-year.png');
+overflow: visible;
+}
+.view-display-id-page .date-nav {margin-bottom:0 !important; padding-bottom:.2em !important; border:none !important;}
+#year-calendar, #year-calendar tbody tr{border:none !important;}
+/* #year-calendar tr td:nth-child(2){
+	background-color: :#ccc;
+	padding-left:20px;
+} */
+#year-calendar td.year-pr {
+	padding-right:13px;
+	padding-bottom:1em;
+}
+
+#year-calendar td.year-pl {
+	padding-left:13px;
+	padding-bottom:1em;
+} 
+
+table.mini td{border:1px solid #ccc !important;}
+#year-calendar tr{background-color:#fff !important}
+.view-display-id-page .date-heading h3{
+	padding:0 4px !important;
+	display:inline;
+	background-color:#fff;
+	color:#3c75a4 !important;
+	font-size:3.3em !important;
+	top:2px;
+	position:relative;
+}
+
+.view-display-id-page .mini-calendar-date-heading {
+overflow: visible;
+text-transform:uppercase;
+font-size:1.6em;
+}
+.mini-calendar-date-heading {margin-bottom:7px;}
+.view-display-id-page .mini-calendar-date-heading a{
+background-color:#fff;
+color:#3c75a4 !important;
+display:block;
+font-weight:100;
+text-decoration:underline !important;
+}
+.view-display-id-page .date-nav {
+	background-color:#fff !important;
+}
+
+
+/**** MONTH ****/
+header#main-content-header #tasks ul.tabs.primary li {
+	text-transform:uppercase;
+}
+
+/*PAGER! */
+.view-display-id-page_1 .date-nav-wrapper ul.pager li.date-prev a, .view-display-id-page_1 .date-nav-wrapper ul.pager li.date-next a {
+	font-size:1.4em;
+}
+
+.view-display-id-page_1 .date-nav-wrapper ul.pager li.date-prev {
+position: absolute;
+right: 56px;
+left: auto;
+text-align: right;
+top: 4px;
+width: auto;
+z-index: 1;
+}
+
+.view-display-id-page_1 .date-nav-wrapper ul.pager li.date-next {
+position: absolute;
+right: -5px;
+text-align: right;
+top: 04px;
+width: auto;
+z-index: 1;
+}
+
+.view-display-id-page_1 .date-heading {
+	background:url('images/bg-calendar-hdr-month.png');
+overflow: visible;
+}
+
+.view-display-id-page_1 .date-heading h3{
+	padding:0 4px !important;
+	display:inline;
+	background-color:#fff;
+	color:#606060 !important;
+	font-size:3em !important;
+}
+
+.calendar-calendar th.days {
+/* background-color: #eee; */
+background-color: #fff !important;
+color:#3c75a4;;
+text-decoration: underline;
+font-weight: bold;
+/* border: 1px solid #ccc; */
+border:none !important;
+}
+.calendar-calendar td.date-box  {
+	background-color: #fff;
+	border:none; 
+}
+
+.calendar-calendar td.date-box  {
+	/* background:url('images/bg-td-date-box.gif') no-repeat; */
+}
+.view-display-id-page_1 tr.date-box, .view-display-id-page_1 tr.single-day {
+	border:none;
+}
+.view-display-id-page_1 td.single-day {
+	/* background:url('images/bg-td-single-day-2.gif') no-repeat !important; */
+	border:none;
+	min-height:72px !important;
+	border-bottom:2px solid #aaa;
+	border-left:2px solid #aaa;
+/*	padding-bottom:29px !important; */
+}
+td.date-box {border-left:2px solid #aaa !important;}
+tr.single-day {
+/*height:101px; */
+height:72px;
+}
+.view-display-id-page_1 .views-field-title a, .view-display-id-page_1 .date-display-single{
+	color:#fff;
+}
+/**** WEEK ****/
+/*PAGER! */
+.view-display-id-page_2 .date-nav-wrapper ul.pager li.date-prev a, .view-display-id-page_2 .date-nav-wrapper ul.pager li.date-next a {
+	font-size:1.25em;
+	color:#fff;
+}
+
+.view-display-id-page_2 .date-nav-wrapper ul.pager li.date-prev {
+position: absolute;
+top:1px;
+right: 47px;
+left: auto;
+text-align: right;
+width: auto;
+z-index: 1;
+}
+
+.view-display-id-page_2 .date-nav-wrapper ul.pager li.date-next {
+position: absolute;
+right:-6px;
+text-align: right;
+top:1px;
+width: auto;
+z-index: 1;
+}
+
+th.calendar-day-holder {background-color:#fff;}
+.calendar-agenda-hour {
+	background-color:#fff;
+}
+.calendar-agenda-items {background-color:#fff !important;}
+
+.calendar-agenda-hour {padding-left:2px}
+.view-display-id-page_2 .date-heading {
+	background:url('images/bg-calendar-hdr-week.png'); 
+overflow: visible;
+}
+
+.view-display-id-page_2 .date-heading h3 {
+padding:0 4px !important;
+	display:inline;
+	background-color:#fff;
+	color:#666 !important;
+font-size:1.9em !important;
+}
+
+.view-display-id-page_2 .weekview {
+background-color:#4e799b !important;
+color:#fff;
+}
+.view-display-id-page_2 .weekview .field-content a {
+	color:#fff;
+}
+/**** DAY ****/
+/**** PAGER ****/
+.view-display-id-page_3 .date-nav-wrapper ul.pager li.date-prev a, .view-display-id-page_3 .date-nav-wrapper ul.pager li.date-next a {
+	font-size:1.2em;
+	color:#fff;
+}
+
+.view-display-id-page_3 .date-nav-wrapper ul.pager li.date-prev {
+position: absolute;
+top:1px;
+right: 52px;
+left: auto;
+text-align: right;
+width: auto;
+z-index: 1;
+}
+
+.view-display-id-page_3 .date-nav-wrapper ul.pager li.date-next {
+position: absolute;
+right: -5px;
+text-align: right;
+top:1px;
+width: auto;
+z-index: 1;
+}
+
+
+
+.view-display-id-page_3 .date-heading {
+	background:url('images/bg-calendar-hdr-day.png') repeat-x 0px 03px; 
+overflow: visible;
+background-size:1px 24px;
+}
+
+.view-display-id-page_3 .date-heading h3{
+	padding:0 4px !important;
+	display:inline;
+	background-color:#fff;
+	color:#606060 !important;
+	font-size:1.6em !important;
+	letter-spacing:-.02em;
+}
+
+.view-display-id-page_3 .dayview {
+background-color:#4e799b !important;
+color:#fff;
+}
+.view-display-id-page_3 .dayview a, .view-display-id-page_3 .dayview a:visited {
+text-decoration: underline;
+color:#fff;
+font-size:1.3em;
+}
+.view-display-id-page_3 .dayview span.date-display-single  {
+color:#fff;
+font-size:1.3em;	
+}
+.view-display-id-page_3 .views-field-field-time-display {
+	font-size:1.3em; 
+}
+}
+
+@media only screen and (min-width:581px) and (max-width:768px) {  /* TABLET PORTRAIT */
+
+/*Set date heading left align for Month, Week, Day all at once here */
+.view-display-id-page_1 .date-nav-wrapper .date-heading,
+.view-display-id-page_2 .date-nav-wrapper .date-heading,
+.view-display-id-page_3 .date-nav-wrapper .date-heading {text-align:left;}
+
+/* CONSIDER ADDING THESE BACK TO THE MODULE CSS INSTEAD OF SEPARATE FILE */
+
+/**** MINI SIDEBAR BLOCK ****/
+#block-views-program-event-calendar-block-1 .view-program-event-calendar ul.pager li {
+	padding:0;
+}
+
+#block-views-program-event-calendar-block-1 .date-nav {
+	padding-bottom:0;
+}
+/* PAGER */
+.view-display-id-block_1 ul.pager li.date-prev a{
+	position:absolute;
+	left:10px;
+	font-size:2em;
+	top:-7px;
+}
+.view-display-id-block_1 ul.pager li.date-next a{
+	position:absolute;
+	right:10px;
+	font-size:2em;
+	top:-7px;
+}
+
+/**** YEAR ****/
+/*PAGER! */
+/*
+ul.pager li.date-prev, ul.pager li.date-next  {
+	background:none !important;
+	margin-top:2px;
+	text-transform:lowercase
+}
+ul.pager li.date-prev {margin-right:8px}
+
+ul.pager li.date-prev a, ul.pager li.date-next  a{font-size:1.2em !important}
+
+*/
+ul.pager li.date-prev, ul.pager li.date-next  {
+	background:none !important;
+	margin-top:2px;
+	text-transform:lowercase
+}
+
+.view-display-id-page .date-nav-wrapper ul.pager {
+	border:0px solid red;
+	width:100%;
+	position:relative;
+	top:-39px
+}
+
+.view-display-id-page .date-nav-wrapper ul.pager li.date-prev {
+position: absolute;
+top:0px;
+right: auto;
+left: 0;
+text-align: right;
+width: 75px;
+z-index: 1;
+}
+
+.view-display-id-page .date-nav-wrapper ul.pager li.date-next {
+position: absolute;
+right: 20px;
+text-align: right;
+top:0px;
+width: auto;
+z-index: 1;
+}
+
+
+.view-display-id-page .date-nav-wrapper ul.pager li.date-prev a, .view-display-id-page .date-nav-wrapper ul.pager li.date-next a {
+	font-size:1.5em;
+	color:#000;
+}
+
+
+.view-display-id-page .date-heading {
+	background:url('images/bg-calendar-hdr-year.png');
+overflow: visible;
+}
+.view-display-id-page .date-nav {margin-bottom:0 !important; padding-bottom:.2em !important; border:none !important;}
+#year-calendar, #year-calendar tbody tr{border:none !important;}
+/* #year-calendar tr td:nth-child(2){
+	background-color: :#ccc;
+	padding-left:20px;
+} */
+#year-calendar td.year-pr {
+	padding-right:13px;
+	padding-bottom:1em;
+}
+
+#year-calendar td.year-pl {
+	padding-left:13px;
+	padding-bottom:1em;
+} 
+
+table.mini td{border:1px solid #ccc !important;}
+#year-calendar tr{background-color:#fff !important}
+.view-display-id-page .date-heading h3{
+	padding:0 4px !important;
+	display:inline;
+	background-color:#fff;
+	color:#3c75a4 !important;
+	font-size:3.2em !important;
+}
+
+.view-display-id-page .mini-calendar-date-heading {
+overflow: visible;
+text-transform:uppercase;
+font-size:1.6em;
+}
+.mini-calendar-date-heading {margin-bottom:7px;}
+.view-display-id-page .mini-calendar-date-heading a{
+background-color:#fff;
+color:#3c75a4 !important;
+display:block;
+font-weight:100;
+text-decoration:underline !important;
+}
+
+
+
+/**** MONTH ****/
+header#main-content-header #tasks ul.tabs.primary li {
+	text-transform:uppercase;
+}
+
+/*PAGER! */
+.view-display-id-page_1 .date-nav {
+
+}
+.view-display-id-page_1 .date-nav-wrapper ul.pager {
+	border:0px solid red;
+	position:absolute;
+	width:100%;
+	height:20px;
+}
+
+.view-display-id-page_1 .date-nav-wrapper ul.pager li.date-prev {
+position: absolute;
+top:-7px;
+right:65px;
+left:auto;
+z-index: 1;
+}
+
+.view-display-id-page_1 .date-nav-wrapper ul.pager li.date-next {
+top:-7px;
+position: absolute;
+right: 0px;
+z-index: 1;
+}
+
+
+.view-display-id-page_1 .date-nav-wrapper ul.pager li.date-prev a, .view-display-id-page_1 .date-nav-wrapper ul.pager li.date-next a {
+	font-size:1.3em;
+}
+
+.view-display-id-page_1 .date-heading {
+	background:url('images/bg-calendar-hdr-month.png');
+overflow: visible;
+}
+
+
+
+.view-display-id-page_1 .date-heading h3{
+	padding:0 4px !important;
+	display:inline;
+	background-color:#fff;
+	color:#606060 !important;
+	font-size:2.3em !important;
+}
+
+.calendar-calendar th.days {
+/* background-color: #eee; */
+background-color: #fff !important;
+color:#3c75a4;;
+text-decoration: underline;
+font-weight: bold;
+/* border: 1px solid #ccc; */
+border:none !important;
+}
+.calendar-calendar td.date-box  {
+	background-color: #fff;
+	border:none; 
+}
+
+.calendar-calendar td.date-box  {
+	/* background:url('images/bg-td-date-box.gif') no-repeat; */
+}
+.view-display-id-page_1 tr.date-box, .view-display-id-page_1 tr.single-day {
+	border:none;
+}
+.view-display-id-page_1 td.single-day {
+	/* background:url('images/bg-td-single-day-2.gif') no-repeat !important; */
+	border:none;
+	min-height:72px !important;
+	border-bottom:2px solid #aaa;
+	border-left:2px solid #aaa;
+/*	padding-bottom:29px !important; */
+}
+td.date-box {border-left:2px solid #aaa !important;}
+tr.single-day {
+/*height:101px; */
+height:72px;
+}
+.view-display-id-page_1 .views-field-title a, .view-display-id-page_1 .date-display-single{
+	color:#fff;
+}
+/**** WEEK ****/
+/*PAGER! */
+
+.view-display-id-page_2 .date-nav-wrapper ul.pager {
+	border:0px solid red;
+	position:absolute;
+	width:100%;
+	height:20px;
+}
+.view-display-id-page_2 .date-nav-wrapper ul.pager li.date-prev {
+position: absolute;
+top:-6px;
+left:auto;
+right:65px;
+z-index: 1;
+}
+
+.view-display-id-page_2 .date-nav-wrapper ul.pager li.date-next {
+position: absolute;
+right:00px;
+text-align: right;
+top:-6px;
+z-index: 1;
+}
+.view-display-id-page_2 .date-nav-wrapper ul.pager li.date-prev a, .view-display-id-page_2 .date-nav-wrapper ul.pager li.date-next a {
+	font-size:1.25em;
+	color:#454545;
+}
+
+th.calendar-day-holder {background-color:#fff;}
+.calendar-agenda-hour {
+	background-color:#fff;
+}
+.calendar-agenda-items {background-color:#fff !important;}
+
+.calendar-agenda-hour {padding-left:2px}
+.view-display-id-page_2 .date-heading {
+	background:url('images/bg-calendar-hdr-week.png'); 
+overflow: visible;
+}
+
+.view-display-id-page_2 .date-heading h3 {
+padding:4px 4px !important;
+	display:inline;
+	background-color:#fff;
+	color:#666 !important;
+font-size:1.4em !important;
+text-align:left !important;
+}
+
+
+.view-display-id-page_2 .weekview {
+background-color:#4e799b !important;
+color:#fff;
+}
+.view-display-id-page_2 .weekview .field-content a {
+	color:#fff;
+}
+/**** DAY ****/
+
+/**** PAGER ****/
+
+.view-display-id-page_3 .date-nav-wrapper ul.pager {
+	border:0px solid red;
+	position:absolute;
+	width:100%;
+	height:20px;
+}
+
+.view-display-id-page_3 .date-nav-wrapper ul.pager li.date-prev {
+position: absolute;
+top:1px;
+right: 52px;
+left: auto;
+text-align: right;
+width: auto;
+z-index: 1;
+}
+
+.view-display-id-page_3 .date-nav-wrapper ul.pager li.date-next {
+position: absolute;
+right: -5px;
+text-align: right;
+top:1px;
+width: auto;
+z-index: 1;
+}
+
+.view-display-id-page_3 .date-nav-wrapper ul.pager li.date-prev a, .view-display-id-page_3 .date-nav-wrapper ul.pager li.date-next a {
+	font-size:1.2em;
+	color:#454545;
+}
+.view-display-id-page_3 .date-heading {
+	background:url('images/bg-calendar-hdr-day.png'); 
+overflow: visible;
+}
+
+.view-display-id-page_3 .date-heading h3{
+	padding:12px 4px 4px 4px !important;
+	display:inline;
+	background-color:#fff;
+	color:#606060 !important;
+	font-size:1.4em !important;
+	letter-spacing:-.02em;
+	border:0px solid red;
+	position:relative;
+	top:2px;
+}
+
+
+.view-display-id-page_3 .dayview {
+background-color:#4e799b !important;
+color:#fff;
+}
+.view-display-id-page_3 .dayview a, .view-display-id-page_3 .dayview a:visited {
+text-decoration: underline;
+color:#fff;
+font-size:1.3em;
+}
+.view-display-id-page_3 .dayview span.date-display-single  {
+color:#fff;
+font-size:1.3em;	
+}
+.view-display-id-page_3 .views-field-field-time-display {
+	font-size:1.3em; 
+	}
+}
+
+
+@media only screen and (min-width:321px) and (max-width:580px) {  /* smalltouch landscape */
+
+/*Set date heading left align for Month, Week, Day all at once here */
+.view-display-id-page_1 .date-nav-wrapper .date-heading,
+.view-display-id-page_2 .date-nav-wrapper .date-heading,
+.view-display-id-page_3 .date-nav-wrapper .date-heading {text-align:left;}
+
+
+ul.pager li.date-prev, ul.pager li.date-next  {
+	background:none !important;
+	margin-top:2px;
+	text-transform:lowercase
+}
+ul.pager li.date-prev {margin-right:8px}
+
+ul.pager li.date-prev a, ul.pager li.date-next  a{font-size:1.2em !important}
+
+.view-display-id-page_3 .date-nav-wrapper .date-prev { /* ---PAGER--- */
+  -moz-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+  background: none repeat scroll 0 0 #dfdfdf;
+  float: none;
+  padding: 5px 0;
+  position: absolute;
+  right: 43px;
+  left: auto;
+  text-align: right;
+  top: 0px;
+  width: auto;
+  z-index: 1;
+  font-size: 12px;
+}
+
+
+.view-display-id-page_3  .date-nav-wrapper .date-next { /* ---PAGER--- */
+  -moz-border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 5px 5px 0px;
+  background: none repeat scroll 0 0 #dfdfdf;
+  float: none;
+  padding: 5px 0;
+  position: absolute;
+  right: -5px;
+  text-align: right;
+  top: 0px;
+  width: auto;
+  z-index: 1;
+  font-size: 12px;
+}
+
+
+ul.pager {
+	
+}
+
+/* CONSIDER ADDING THESE BACK TO THE MODULE CSS INSTEAD OF SEPARATE FILE */
+
+/**** MINI SIDEBAR BLOCK ****/
+#block-views-program-event-calendar-block-1 .view-program-event-calendar ul.pager li {
+	padding:0;
+font-size:2em;
+position:relative;
+top:-45px;
+}
+
+#block-views-program-event-calendar-block-1 .view-program-event-calendar ul.pager li.date-prev {
+left:-140px;
+}
+#block-views-program-event-calendar-block-1 .view-program-event-calendar ul.pager li.date-next {
+	right:-125px;
+}
+#block-views-program-event-calendar-block-1 .date-nav {
+	padding-bottom:0;
+}
+/**** YEAR ****/
+.view-display-id-page .date-heading {
+	background:url('images/bg-calendar-hdr-year.png');
+overflow: visible;
+}
+.view-display-id-page .date-nav {margin-bottom:0 !important; padding-bottom:.2em !important; border:none !important;}
+#year-calendar, #year-calendar tbody tr{border:none !important;}
+/* #year-calendar tr td:nth-child(2){
+	background-color: :#ccc;
+	padding-left:20px;
+} */
+#year-calendar td.year-pr {
+	padding-right:13px;
+	padding-bottom:1em;
+}
+
+#year-calendar td.year-pl {
+	padding-left:13px;
+	padding-bottom:1em;
+} 
+
+table.mini td{border:1px solid #ccc !important;}
+#year-calendar tr{background-color:#fff !important}
+.view-display-id-page .date-heading h3{
+	padding:0 4px !important;
+	display:inline;
+	background-color:#fff;
+	color:#3c75a4 !important;
+	font-size:3.2em !important;
+}
+
+.view-display-id-page .mini-calendar-date-heading {
+overflow: visible;
+text-transform:uppercase;
+font-size:1.6em;
+}
+.mini-calendar-date-heading {margin-bottom:7px;}
+.view-display-id-page .mini-calendar-date-heading a{
+background-color:#fff;
+color:#3c75a4 !important;
+display:block;
+font-weight:100;
+text-decoration:underline !important;
+}
+.view-display-id-page .date-nav {
+	background-color:#fff !important;
+}
+
+
+/**** MONTH ****/
+header#main-content-header #tasks ul.tabs.primary li {
+	text-transform:uppercase;
+}
+.view-display-id-page_1 .date-heading {
+	background:url('images/bg-calendar-hdr-month.png');
+overflow: visible;
+}
+
+
+
+.view-display-id-page_1 .date-heading h3{
+	padding:0 4px !important;
+	display:inline;
+	background-color:#fff;
+	color:#606060 !important;
+	font-size:2.2em !important;
+}
+
+.calendar-calendar th.days {
+/* background-color: #eee; */
+background-color: #fff !important;
+color:#3c75a4;;
+text-decoration: underline;
+font-weight: bold;
+/* border: 1px solid #ccc; */
+border:none !important;
+}
+.calendar-calendar td.date-box  {
+	background-color: #fff;
+	border:none; 
+}
+
+.calendar-calendar td.date-box  {
+	/* background:url('images/bg-td-date-box.gif') no-repeat; */
+}
+.view-display-id-page_1 tr.date-box, .view-display-id-page_1 tr.single-day {
+	border:none;
+}
+.view-display-id-page_1 td.single-day {
+	/* background:url('images/bg-td-single-day-2.gif') no-repeat !important; */
+	border:none;
+	min-height:72px !important;
+	border-bottom:2px solid #aaa;
+	border-left:2px solid #aaa;
+/*	padding-bottom:29px !important; */
+}
+td.date-box {border-left:2px solid #aaa !important;}
+tr.single-day {
+/*height:101px; */
+height:72px;
+}
+.view-display-id-page_1 .views-field-title a, .view-display-id-page_1 .date-display-single{
+	color:#fff;
+}
+/**** WEEK ****/
+th.calendar-day-holder {background-color:#fff;}
+.calendar-agenda-hour {
+	background-color:#fff;
+}
+.calendar-agenda-items {background-color:#fff !important;}
+
+.calendar-agenda-hour {padding-left:2px}
+.view-display-id-page_2 .date-heading {
+	background:url('images/bg-calendar-hdr-week.png'); 
+overflow: visible;
+}
+
+.view-display-id-page_2 .date-heading h3 {
+padding:4px 4px !important;
+	display:inline;
+	background-color:#fff;
+	color:#666 !important;
+font-size:1.3em !important;
+text-align:left !important;
+}
+
+
+.view-display-id-page_2 .weekview {
+background-color:#4e799b !important;
+color:#fff;
+}
+.view-display-id-page_2 .weekview .field-content a {
+	color:#fff;
+}
+/**** DAY ****/
+
+.view-display-id-page_3 .date-heading {
+	background:url('images/bg-calendar-hdr-day.png'); 
+overflow: visible;
+}
+
+.view-display-id-page_3 .date-heading h3{
+	padding:4px 4px !important;
+	display:inline;
+	background-color:#fff;
+	color:#606060 !important;
+	font-size:1.4em !important;
+	letter-spacing:-.02em;
+}
+
+.view-display-id-page_3 ul.pager li.date-prev, .view-display-id-page_3 ul.pager li.date-next{background:none !important;}
+.view-display-id-page_3 ul.pager li.date-prev a, .view-display-id-page_3 ul.pager li.date-next a{color:#fff;}
+
+.view-display-id-page_3 .dayview {
+background-color:#4e799b !important;
+color:#fff;
+}
+.view-display-id-page_3 .dayview a, .view-display-id-page_3 .dayview a:visited {
+text-decoration: underline;
+color:#fff;
+font-size:1.3em;
+}
+.view-display-id-page_3 .dayview span.date-display-single  {
+color:#fff;
+font-size:1.3em;	
+}
+.view-display-id-page_3 .views-field-field-time-display {
+	font-size:1.3em; 
+	}
+}
+
+@media (max-width:321px) {  /* SMALLTOUCH PORTRAIT */
+ul.pager li.date-prev, ul.pager li.date-next  {
+	background:none !important;
+	margin-top:10px;
+	text-transform:lowercase
+}
+ul.pager li.date-prev {margin-right:8px}
+
+ul.pager li.date-prev a, ul.pager li.date-next  a {font-size:1.2em !important;position:relative;top:0px}
+
+/* MINI CALENDAR, SIDEBAR */
+#block-views-program-event-calendar-block-1 { /*moved to calendar css */
+	position:relative;
+	top:30px;
+}
+
+#block-views-program-event-calendar-block-1 .view-program-event-calendar ul.pager li {
+	padding:0;
+}
+
+#block-views-program-event-calendar-block-1 ul.pager li.date-next {
+right:-6px;
+}
+
+#block-views-program-event-calendar-block-1 ul.pager li.date-prev {
+left:-6px;
+}
+
+#block-views-program-event-calendar-block-1 .date-nav {
+	padding-bottom:0;
+}
+
+.view-display-id-block_1 { 
+  width:95%;
+  margin:0px auto 0 auto;
+} 
+
+.view-display-id-block_1 .date-nav-wrapper .date-prev {
+font-size:1.8em;
+margin:0;
+top:-14px
+}
+.view-display-id-block_1 .date-nav-wrapper .date-next {
+font-size:1.8em;
+margin:0;
+top:-14px
+}
+
+.view-display-id-block_1 .date-heading h3 {
+line-height: 30px;
+font-size: 1.7em !important;
+text-transform: uppercase;
+font-weight: 900;
+color: #999;
+}
+
+.view-display-id-page .mini-calendar-date-heading a{  /*MONTH HEADING MINI SIDE ONLY */
+background-color:#fff;
+color:#3c75a4 !important;
+display:block;
+font-weight:100;
+text-decoration:underline !important;
+}
+
+.view-display-id-page .mini-calendar-date-heading {
+overflow: visible;
+text-transform:uppercase;
+font-size:1.6em;
+}
+.mini-calendar-date-heading {margin-bottom:7px;}
+
+/* END MINI CALENDAR, SIDEBAR */
+
+/**** YEAR ****/
+.view-display-id-page .date-heading {
+	/* background:url('images/bg-calendar-hdr-year.png'); */
+overflow: visible;
+text-align:center;
+}
+
+.view-display-id-page .date-heading h3{
+	padding:4px 4px !important;
+	display:inline;
+	background-color:#fff;
+	color:#3c75a4 !important;
+	font-size:2em !important;
+	letter-spacing:-.02em;
+}
+
+.view-display-id-page .date-nav {margin-bottom:0 !important; padding-bottom:.2em !important; border:none !important;}
+
+body.page-program-event-calendar-year .view-display-id-page .date-nav-wrapper ul.pager{
+	position:absolute;
+	top:-8px;
+	border:0px solid red;
+	width:100%;
+	height:40px;
+}
+
+body.page-program-event-calendar-year .view-display-id-page .date-nav-wrapper .date-prev {
+-moz-border-radius: 5px 0 0 5px;
+border-radius: 5px 0 0 5px;
+background: none;
+float: none;
+padding: 0px 0;
+position:absolute;
+right:auto;
+left:15px;
+text-align: right;
+top:0px;
+width: 70px;
+z-index: 1;
+font-size:.9em;
+
+}
+body.page-program-event-calendar-year .view-display-id-page .date-nav-wrapper .date-next {
+  -moz-border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 5px 5px 0px;
+  background: none;
+  float: none;
+  padding: 0px 0;
+  position:absolute;
+  right:15px;
+  left:auto;
+  text-align: right;
+  top:0px;
+  width: 90px;
+  z-index: 1;
+  font-size: .9em;
+}
+
+
+#year-calendar, #year-calendar tbody tr{border:none !important;}
+/* #year-calendar tr td:nth-child(2){
+	background-color: :#ccc;
+	padding-left:20px;
+} */
+#year-calendar td.year-pr {
+	padding-right:13px;
+	padding-bottom:1em;
+}
+
+#year-calendar td.year-pl {
+	padding-left:13px;
+	padding-bottom:1em;
+} 
+
+table.mini td{border:1px solid #ccc !important;}
+#year-calendar tr{background-color:#fff !important}
+
+.view-display-id-page .mini-calendar-date-heading {
+overflow: visible;
+text-transform:uppercase;
+font-size:1.6em;
+}
+.mini-calendar-date-heading {margin-bottom:7px;}
+
+.view-display-id-page table#year-calendar .mini-calendar-date-heading a{
+background-color:#fff;
+color:#3c75a4 !important;
+display:block;
+font-weight:100;
+font-size:.6em;
+text-decoration:underline !important;
+}
+
+.view-display-id-page table#year-calendar td.has-no-events {
+	font-size:.6em;
+}
+.view-display-id-page table#year-calendar td.has-events a{
+	font-size:.7em;
+
+}
+
+/**** MONTH ****/
+header#main-content-header #tasks ul.tabs.primary li {
+	text-transform:uppercase;
+}
+body.page-program-event-calendar ul.tabs.primary, 
+body.page-program-event-calendar #tasks {
+	margin-bottom: 5px;
+}
+
+
+.view-display-id-page_1 .date-heading {
+	/*background:url('images/bg-calendar-hdr-month.png') repeat-x 0 7px;
+	background-size:1px 15px; */
+overflow: visible;
+text-align:center;
+}
+
+.view-display-id-page_1 .date-heading h3 {
+	padding:2px 3px 2px 0 !important;
+	display:inline;
+	background-color:#fff;
+	color:#606060 !important;
+	font-size:1.4em !important;
+	letter-spacing:0px;
+}
+
+.view-display-id-page_1 .date-nav-wrapper .date-prev {
+-moz-border-radius: 5px 0 0 5px;
+border-radius: 5px 0 0 5px;
+background: none repeat scroll 0 0 #dfdfdf;
+float: none;
+padding: 0px 0;
+position: absolute;
+right:auto;
+left:70px;
+text-align: right;
+top:20px;
+width: auto;
+z-index: 1;
+font-size:.9em;
+
+}
+.view-display-id-page_1 .date-nav-wrapper .date-next {
+  -moz-border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 5px 5px 0px;
+  background: none repeat scroll 0 0 #dfdfdf;
+  float: none;
+  padding: 0px 0;
+  position: absolute;
+  right:70px;
+  text-align: right;
+  top:20px;
+  width: auto;
+  z-index: 1;
+  font-size: .9em;
+}
+
+.calendar-calendar th.days {
+/* background-color: #eee; */
+background-color: #fff !important;
+color:#3c75a4;;
+text-decoration: underline;
+font-weight: bold;
+/* border: 1px solid #ccc; */
+border:none !important;
+}
+.calendar-calendar td.date-box  {
+	background-color: #fff;
+	border:none; 
+}
+
+.calendar-calendar td.date-box  {
+	/* background:url('images/bg-td-date-box.gif') no-repeat; */
+}
+.view-display-id-page_1 tr.date-box, .view-display-id-page_1 tr.single-day {
+	border:none;
+}
+.view-display-id-page_1 td.single-day {
+	/* background:url('images/bg-td-single-day-2.gif') no-repeat !important; */
+	border:none;
+	min-height:72px !important;
+	border-bottom:2px solid #aaa;
+	border-left:2px solid #aaa;
+/*	padding-bottom:29px !important; */
+}
+td.date-box {border-left:2px solid #aaa !important;}
+tr.single-day {
+/*height:101px; */
+height:72px;
+}
+.view-display-id-page_1 .views-field-title a, .view-display-id-page_1 .date-display-single{
+	color:#fff;
+}
+/**** WEEK ****/
+th.calendar-day-holder {background-color:#fff;}
+.calendar-agenda-hour {
+	background-color:#fff;
+}
+.calendar-agenda-items {background-color:#fff !important;}
+
+body.page-program-event-calendar-week ul.tabs.primary, 
+body.page-program-event-calendar-week #tasks {
+	margin-bottom: 5px;
+}
+
+.calendar-agenda-hour {padding-left:2px}
+.view-display-id-page_2 .date-heading {
+/*	background:url('images/bg-calendar-hdr-week.png');  */
+text-align:center;
+overflow: visible;
+}
+
+.view-display-id-page_2 .date-heading h3 {
+padding:4px 4px !important;
+	display:inline;
+	background-color:#fff;
+	color:#666 !important;
+font-size:1.1em !important;
+}
+
+.view-display-id-page_2 ul.pager {clear:both;position:relative;top:-15px;}
+
+.view-display-id-page_2 .date-nav-wrapper .date-prev {
+-moz-border-radius: 5px 0 0 5px;
+border-radius: 5px 0 0 5px;
+background: none repeat scroll 0 0 #dfdfdf;
+float: none;
+padding: 0px 0;
+position: absolute;
+right: auto;
+left: 70px;
+text-align: right;
+
+width: auto;
+z-index: 1;
+font-size:.85em;
+
+}
+.view-display-id-page_2 .date-nav-wrapper .date-next {
+  -moz-border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 5px 5px 0px;
+  background: none repeat scroll 0 0 #dfdfdf;
+  float: none;
+  padding: 0px 0;
+  position: absolute;
+  right:70px;
+  text-align: right;
+  width: auto;
+  z-index: 1;
+  font-size: .85em;
+}
+
+.view-display-id-page_2 .weekview {
+background-color:#4e799b !important;
+color:#fff;
+}
+.view-display-id-page_2 .weekview .field-content a {
+	color:#fff;
+}
+
+.calendar-calendar th.days {
+font-size:.7em;
+}
+
+/**** DAY ****/
+
+.view-display-id-page_3 .date-heading {
+/*	background:url('images/bg-calendar-hdr-day.png'); */
+overflow: visible;
+text-align:center;
+}
+
+.view-display-id-page_3 .date-heading h3{
+	padding:4px 4px !important;
+	display:inline;
+	background-color:#fff;
+	color:#606060 !important;
+	font-size:.95em !important;
+	letter-spacing:-.02em;
+}
+
+.view-display-id-page_3 .date-nav-wrapper ul.pager {position:relative;top:-5px;}
+
+/*
+.view-display-id-page_3 .date-nav-wrapper .date-prev { 
+  -moz-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+  background: none repeat scroll 0 0 #dfdfdf;
+  float: none;
+  padding: 5px 0;
+  position: absolute;
+  right: 43px;
+  left: auto;
+  text-align: right;
+  top: 0px;
+  width: auto;
+  z-index: 1;
+  font-size: 12px;
+}
+
+.view-display-id-page_3  .date-nav-wrapper .date-next { 
+  -moz-border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 5px 5px 0px;
+  background: none repeat scroll 0 0 #dfdfdf;
+  float: none;
+  padding: 5px 0;
+  position: absolute;
+  right: -5px;
+  text-align: right;
+  top: 0px;
+  width: auto;
+  z-index: 1;
+  font-size: 12px;
+} */
+
+
+.view-display-id-page_3 .date-nav-wrapper .date-prev {
+-moz-border-radius: 5px 0 0 5px;
+border-radius: 5px 0 0 5px;
+background: none;
+float: none;
+padding: 0px 0;
+position: absolute;
+right: auto;
+left: 75px;
+text-align: right;
+width: auto;
+z-index: 1;
+font-size:.75em;
+
+}
+.view-display-id-page_3 .date-nav-wrapper .date-next {
+  -moz-border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 5px 5px 0px;
+  background: none;
+  float: none;
+  padding: 0px 0;
+  position: absolute;
+  right:75px;
+  text-align: right;
+  width: auto;
+  z-index: 1;
+  font-size: .75em;
+}
+
+
+.view-display-id-page_3 .dayview {
+background-color:#4e799b !important;
+color:#fff;
+}
+.view-display-id-page_3 .dayview a, .view-display-id-page_3 .dayview a:visited {
+text-decoration: underline;
+color:#fff;
+font-size:1.3em;
+}
+.view-display-id-page_3 .dayview span.date-display-single  {
+color:#fff;
+font-size:1.3em;	
+}
+.view-display-id-page_3 .views-field-field-time-display {
+	font-size:1.3em; 
+}
+.view-display-id-page_3 ul.pager li.date-prev a, 
+.view-display-id-page_3 ul.pager li.date-next  a {font-size:1.4em !important;position:relative;top:-9px}
+
+.view-display-id-page_3 ul.pager li.date-prev a {right:10px;}
+
+}
+

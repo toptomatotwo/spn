@@ -1,0 +1,195 @@
+/*GLOBAL */
+#page-title {
+	text-transform:uppercase;
+	color:#363636;
+	background-color:#fff;
+	
+}
+
+/* END GLOBAL */
+
+@media only screen and (min-width:1025px) {
+nav#block-menu-menu-network ul{
+	padding-left: 0;
+}
+
+#main-content {
+	padding-top: 43px;
+}
+.content-inner {
+	margin-right:5% !important;
+}
+#main-content-header {
+	background:url('images/bg-hdr-network-landing.png')repeat-x 10px 26px;
+	border:0px solid red;
+	padding-top:0;
+	height:67px;
+}
+#main-content-header h1#page-title{ 
+display:block;
+font-size:4.7em;
+width:349px;
+}
+.field-items {
+	position:relative;
+}
+
+.image-style-top-level-landing-page{
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+/*TABLET LANDSCAPE */
+nav#block-menu-menu-network ul{
+	padding-left: 0;
+}
+
+#main-content {
+	padding-top: 43px;
+}
+.content-inner {
+	margin-right:5% !important;
+}
+#main-content-header {
+	background:url('images/bg-hdr-network-landing.png')repeat-x 10px 26px;
+	border:0px solid red;
+	padding-top:0;
+	height:67px;
+}
+#page-title {
+	font-size:4em;
+	display:inline;
+	margin-top:0;
+	padding-right:10px;
+}
+.field-items {
+	position:relative;
+}
+
+.image-style-top-level-landing-page{
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+
+}
+
+@media only screen and (min-width:581px) and (max-width:768px) {
+/* TABLET PORTRAIT */	
+nav#block-menu-menu-network ul{
+	padding-left: 0;
+}
+
+#main-content {
+	padding-top: 43px;
+}
+.content-inner {
+	margin-right:5% !important;
+}
+body.page-node-80 #main-content-header {
+	background:url('images/bg-hdr-network-landing.png')repeat-x 10px 24px;
+	border:0px solid red;
+	padding-top:0;
+	height:67px;
+	background-size:1px 38px;
+}
+
+body.page-node-80 h1#page-title { /*NETWORK NEEDS TO BE MOVED DOWN, MAYBE MOVE TO NETWORK.CSS ... */
+  position: relative;top:3px;
+  font-size:3.5em;
+	display:block;
+	margin-top:0;
+	width:277px;
+}
+article#node-80 img {  /* NETWORK */
+  width:218px;
+  margin-top:3px;
+  }
+.field-items {
+	position:relative;
+}
+
+.image-style-top-level-landing-page{
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+
+}
+
+@media only screen and (min-width:321px) and (max-width:580px){
+	/* SMALLTOUCH.LANDSCAPE */
+	nav#block-menu-menu-network ul{
+	padding-left: 0;
+}
+
+#main-content {
+	padding-top: 10px;
+}
+.content-inner {
+	margin-right:5% !important;
+}
+#main-content-header {
+	background:url('images/bg-hdr-network-landing.png')repeat-x 10px 10px;
+	border:0px solid red;
+	padding-top:0;
+	height:67px;
+	text-align:center;
+}
+body.page-node-80 #page-title {
+	text-transform: uppercase;
+display: inline;
+background-color: #fff;
+padding:0 3px;
+font-size:3.5em;
+  top:-9px;
+  position:relative;
+
+}
+.field-items {
+	position:relative;
+}
+
+.image-style-top-level-landing-page{
+	position:relative;
+	margin:0 auto;
+	display:block;
+	width:284px;
+	}
+}
+
+
+
+
+@media (max-width:320px) { 
+#main-content {padding-top:0;}
+/* SMALLTOUCH PORTRAIT */
+body.page-node-80 #main-content-header {
+	background:url('images/bg-hdr-network-landing.png')repeat-x 10px 12px;
+	background-size:1px 23px;
+	border:0px solid red;
+	padding-top:0;
+	text-align:center;
+}
+body.page-node-80 h1#page-title {
+font-size: 2.2em;
+display: inline;
+margin: 0 auto;
+background-color: #fff;
+padding: 0 0px;
+}
+.image-style-top-level-landing-page{
+	position:relative;
+	left:0;
+	top:0;
+	width:100%;
+}
+}
+
+

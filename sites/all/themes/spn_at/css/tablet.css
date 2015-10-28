@@ -1,0 +1,11 @@
+
+@media (max-width: 768px){
+
+	#primary-menu-bar {
+	padding-top: 0;
+	border-bottom: 3px solid #000;
+	}
+	.primary-menu-wrapper {
+		margin-left: 0%;
+	}
+}

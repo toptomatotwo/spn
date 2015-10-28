@@ -1,0 +1,59 @@
+/* DEFAULT GLOBAL */
+#main-content-header {
+	background:url('images/bg-hdr-about.png')repeat-x 10px 21px;
+}
+
+#main-content-header {
+background:url('images/bg-hdr-about.png')repeat-x 10px 21px;
+	/* width:94%; */
+	width:667px;
+	margin-left:20px;
+}
+
+h1#page-title {
+	font-size:4em;
+	padding-right:0;
+	text-transform: uppercase;
+	color:#333;
+	background-color: #fff;
+	width:50%;
+	margin-bottom:0;
+	padding-left:124px;
+	border:0px solid red
+}
+#lead-text {
+	position:absolute;
+	border:0px solid red;
+	width:250px;
+	color:#999;
+	display:block;
+	
+	position:relative;
+	left:477px;
+	top:-19px;
+	font-size:16px;
+	font-weight:900;
+	letter-spacing:.5px
+	}
+
+#node-1 p span#about-continue{
+	display:block;
+	line-height:1.2;
+	font-size:16px;
+	margin-left:382px;
+	width:316px;
+	border:0px solid green;
+	font-weight:900;
+	color:#999;
+	positon:relative;
+	margin-top:-20px;
+	
+	}
+
+#content {
+	margin-top:-20px
+}
+nav#block-menu-menu-contact-join ul{
+	padding-left:0;
+	}
+

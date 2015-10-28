@@ -1,0 +1,16 @@
+name = Contact save
+description = Saves contact messages in the database.
+core = 7.x
+configure = admin/structure/contact/settings
+dependencies[] = contact
+dependencies[] = views
+files[] = handlers/contact_save_handler_message_link_view.inc
+files[] = handlers/contact_save_handler_message_link_reply.inc
+files[] = handlers/contact_save_handler_message_link_delete.inc
+
+; Information added by Drupal.org packaging script on 2014-05-14
+version = "7.x-1.0"
+core = "7.x"
+project = "contact_save"
+datestamp = "1400064828"
+

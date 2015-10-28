@@ -1,0 +1,11 @@
+
+/**
+ * @file
+ * CSS styles for the Facebook Share module boxes
+ */
+
+.facebookshare-box {
+  /* float: right; */
+  clear: both;
+ padding-top: 20px;
+}

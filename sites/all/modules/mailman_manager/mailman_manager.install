@@ -1,0 +1,104 @@
+<?php
+
+/**
+ * @file
+ * Mailman Manager install/schema hooks.
+ */
+
+/**
+ * Implements hook_schema().
+ */
+function mailman_manager_schema() {
+  $schema['mailman_lists'] = array(
+    'description' => 'Stores specific information for mailiman lists.',
+    'fields' => array(
+      'lid' => array(
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'description' => 'The list id.',
+      ),
+      'name' => array(
+        'type' => 'varchar',
+        'length' => 48,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'Mailing List name',
+      ),
+      'command' => array(
+        'type' => 'varchar',
+        'length' => 72,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => "Mailing List 'request' address",
+      ),
+      'admin' => array(
+        'type' => 'varchar',
+        'length' => 48,
+        'default' => '',
+        'description' => "Mailing List 'admin' address",
+      ),
+      'web' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'default' => '',
+        'description' => 'Mailing list web address for users.',
+      ),
+      'webarch' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'default' => '',
+        'description' => 'Mailing list web archive address for users',
+      ),
+      'roles' => array(
+        'type' => 'text',
+        'description' => 'Serialised array of roles that will be offered this mailing list',
+      ),
+    ),
+    'primary key' => array('lid'),
+  );
+
+  $schema['mailman_users'] = array(
+    'description' => 'Stores subscription information for users.',
+    'fields' => array(
+      'uid' => array(
+        'type' => 'int',
+        'disp-width' => 10,
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => 'User id.',
+      ),
+      'lid' => array(
+        'type' => 'int',
+        'disp-width' => 10,
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => 'The list id.',
+      ),
+      'lstatus' => array(
+        'type' => 'int',
+        'disp-width' => 10,
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => 'Subscription status.',
+      ),
+      'lmail' => array(
+        'type' => 'varchar',
+        'length' => 36,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'Current user subscribed email.',
+      ),
+      'lpass' => array(
+        'type' => 'varchar',
+        'length' => 36,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'Current user list password.',
+      ),
+    ),
+    'primary key' => array('uid', 'lid'),
+  );
+
+  return $schema;
+}

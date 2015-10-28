@@ -1,0 +1,279 @@
+/*GLOBAL EVENTS ELS */
+#page-title {
+	text-transform:uppercase;
+	color:#434343;
+	background-color:#fff;
+	}
+
+
+
+@media only screen and (min-width:1025px){
+/* DESKTOP */
+body.node-type-landing-page #page-title {
+	display:inline;
+}
+
+.view-program-event-calendar {
+  width:95%;
+  margin:40px auto 0 auto;
+}
+
+#main-content {
+	padding-top: 43px;
+}
+.content-inner {
+	margin-right:5% !important;
+}
+#main-content-header {
+	background:url('images/bg-hdr-events-landing.png')repeat-x 10px 25px;
+	border:0px solid red;
+	padding-top:0;
+	height:67px;
+}
+
+#main-content-header h1#page-title{ 
+display:block;
+font-size:4.72em;
+width:266px;
+}
+
+
+.field-items {
+	position:relative;
+}
+
+.image-style-top-level-landing-page{
+	position:absolute;
+	right:0;
+	top:0;
+	}
+}
+
+
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+/*TABLET LANDSCAPE */
+
+body.node-type-landing-page h1#page-title {
+  position:relative;
+  top:-4px; /*for some events header moves down */
+  display:block;
+  width:265px;
+  border:0px solid red;
+  margin:0;
+  padding:0;
+ }
+
+.view-program-event-calendar {
+  width:95%;
+  margin:40px auto 0 auto;
+}
+
+#main-content {
+	padding-top: 47px;
+}
+.content-inner {
+	margin-right:5% !important;
+}
+#main-content-header {
+	background:url('images/bg-hdr-events-landing.png')repeat-x 10px 21px;
+	border:0px solid red;
+	padding-top:0;
+	height:67px;
+}
+
+.field-items {
+	position:relative;
+}
+
+.image-style-top-level-landing-page{
+	position:absolute;
+	right:0;
+	top:0;
+	}
+}
+
+
+
+
+
+@media only screen and (min-width:581px) and (max-width:768px){
+/* TABLET PORTRAIT */	
+#main-content-header {
+	background:url('images/bg-hdr-events-landing.png')repeat-x 10px 22px;
+	border:0px solid red;
+	padding-top:0;
+	background-size:1px 30px;
+} 
+
+body.node-type-landing-page h1#page-title {
+font-size:4em;
+	display:block;
+	padding-right:3px;
+	padding-top:0;
+	margin:0;
+	width:240px;
+}
+
+article#node-82 img {  /*EVENTS img */
+  border:0px solid green;
+  margin-top:0px;
+  width:253px;
+  top:-20px;
+  right:0px
+}
+
+
+.view-program-event-calendar {
+  width:95%;
+  margin:40px auto 0 auto;
+}
+
+#main-content {
+	padding-top: 43px;
+}
+.content-inner {
+	margin-right:5% !important;
+}
+
+.field-items {
+	position:relative;
+}
+
+.image-style-top-level-landing-page{
+	position:absolute;
+	right:0;
+	top:0px;
+	}
+}
+
+
+@media only screen and (min-width:321px) and (max-width:580px){
+	/* SMALLTOUCH.LANDSCAPE */
+
+#main-content {
+	padding-top: 10px;
+}
+.content-inner {
+	margin-right:5% !important;
+}
+#main-content-header {
+	background:url('images/bg-hdr-events-landing.png')repeat-x 10px 10px;
+	border:0px solid red;
+	padding-top:0;
+	height:67px;
+	text-align:center;
+}
+body.page-node-82  #page-title {
+text-transform: uppercase;
+display: inline;
+background-color: #fff;
+padding:0 3px;
+font-size:3.5em;
+  top:-9px;
+  position:relative;
+}
+
+ .field-items {
+	position:relative;
+}
+.image-style-top-level-landing-page{
+  position:relative;
+  margin:20px auto 0 auto;
+  width:60%;
+  border:0px solid red;
+  display:block;
+ }
+/* REMOVE?
+.view-program-event-calendar {
+  width:95%;
+  margin:40px auto 0 auto;
+}
+*/
+
+}
+
+
+@media only screen and (max-width:320px){
+/* SMALLTOUCH PORTRAIT */
+	header#main-content-header {
+	background:none
+}
+#main-content {
+	padding-top: 0px;
+}
+
+#page-title {
+	width:100%;
+	font-size:4em;
+	display:block;
+	margin:0;
+	padding:0px;
+	text-align:center;
+}
+/*EVENTS LANDING PAGE */
+body.page-node-82 header#main-content-header {
+  background:url('images/bg-hdr-events-landing.png')repeat-x 10px 12px;
+  background-size:1px 20px;
+  border:0px solid red;
+  padding-top:0;
+  
+  text-align:center;
+}
+
+body.page-node-82 h1#page-title {
+  font-size:2.2em;
+display:inline;margin:0 auto;padding:0 3px
+}
+
+
+.image-style-top-level-landing-page{
+  position:relative;
+  margin:0 auto;
+  max-width:100%;
+ }
+
+
+/*PROGRAM ENTRY PANE ----* NOT FIRING WHY????
+.program-event-time-span {
+  margin-bottom: 0;
+  background:url('images/time-span-bg.png')repeat-x 10px 9px;
+  width:96%;
+  margin-left:11px;
+  }
+.program-event-time-span .block-inner{
+  margin-left:0;
+} 
+.program-event-time-span ul li {
+  font-size:1.5em;background-color:#fff;display:block;
+  display:inline;
+  color:#333;
+padding-top:0px;
+  font-weight:900;
+  padding-left:10px;
+  padding-right:3px;
+  text-transform:uppercase;
+  letter-spacing:-.05px;
+}
+.program-entry-title {
+font-size:1.1em;
+color:#3c75a4;
+font-weight:900;
+margin:0 0 5px 0;
+}
+.pane-node-field-event-date-sl, .pane-node-field-time-display, 
+.pane-node-field-program-venu {margin-bottom:0;}
+
+SOCIAL MEDIA SHARE BUTTONS, MAKE THEM FLOAT 
+body.node-type-program-entry .pane-custom {
+  float:left;
+  clear:none;
+  width:67px;
+  margin-right:3px;
+  margin-top:5px;
+  margin-bottom:8px;
+  position:relative;
+  border:0px solid green !important;
+} */
+
+}

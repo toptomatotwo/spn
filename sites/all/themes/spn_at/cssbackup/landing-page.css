@@ -1,0 +1,21 @@
+#main-content {
+	padding-top: 43px;
+}
+.content-inner {
+	margin-right:5% !important;
+}
+#main-content-header {
+	background:url('images/bg-hdr-landing.png')repeat-x 10px 23px;
+	border:0px solid red;
+	padding-top:0;
+	height:67px;
+}
+#page-title {
+	font-size:4em;
+	text-transform:uppercase;
+	color:#363636;
+	background-color:#fff;
+	display:inline;
+	margin-top:0;
+	padding-right:10px;
+}

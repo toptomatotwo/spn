@@ -1,0 +1,593 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+
+/* Increase the body font size on tablet devices */
+body {
+  font-size: 93.8%;
+} 
+/*
+  body {font-size:90%;} 
+*/
+/*
+  body::before{
+   content: "(min-width:581px) and (max-width:768px) - tablet.portrait.css"; 
+
+    font-weight: bold; 
+    display: block; 
+    text-align: center; 
+    background: rgba(255,255,0, 0.9); 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    z-index: 99; 
+} */
+/*---- MENU BAR ELEMENTS, SEARCH, SOCIAL MEDIA ICONS */
+/* SEARCH BOX */
+
+#block-search-form { /*???*/
+  margin-right:4px;
+}
+
+#search-block-form {
+  border:1px solid #959595;
+  width:126px;
+  margin-left:0px;
+  padding:2px 0 14px 9px;
+  height:7px;
+}
+#block-search-form {
+    border:0px solid green;
+    position:relative;
+    top:30px;
+    left:0px;
+    overflow: hidden;
+    /* width:160px; */
+    width:23%;
+    }
+
+#search-block-form input[type="search"] {
+  border:0px solid green;
+  width:70%;
+  margin-right:0;
+  border:0;
+color:#666;
+margin-right:0px;
+letter-spacing:1px;
+font-family:'Lucida Grande';
+height:14px; 
+font-size:.9em;
+position:relative;
+top:-5px;
+}
+
+#search-block-form input:focus {outline:0;}
+#edit-submit {
+  position:relative;
+  top:0px;
+  margin:0;
+  left:0px;
+  }
+/* END SEARCH BOX ----*/
+.social-media-icons-global {
+  clear:both;
+  border:0px solid red;
+  position:relative;top:35px;
+  left:10px;
+  width:100px;
+}
+.social-media-icons-global a{ 
+margin-right:3px;
+}
+.social-media-icons-global a img{ 
+width:25px;height:25px;
+}
+
+/*---- END MENU BAR ELEMENTS ----*/
+
+/*-- GLOBAL NAV BEGIN --*/
+#nav-home-smalltouch {display:none;}
+
+
+#mobile-menu-container {display:none;}
+
+.nav {
+clear: both;
+margin: 10px 0 0 0;
+}
+
+#menu-bar {margin-top:0;}
+
+#primary-menu-bar {
+padding-top:.7em;
+  border-bottom: 3px solid #000;
+}
+
+.nav li a,
+.nav ul.menu li a {
+  display: block;
+  white-space: nowrap;
+  padding: 0 0px;
+}
+/*
+.primary-menu-wrapper {
+  float:right;
+  position:relative;
+  left:-50%;
+  text-align:left;
+}
+*/
+.primary-menu {
+  text-transform:uppercase;
+  font-size:1.1em;
+  font-weight:900;
+ margin-left:7px !important; 
+  width:100%; 
+  /*position:relative;
+  left:50%; */
+}
+/* PREV */
+  .primary-menu-wrapper {
+margin-left:210px;
+}
+
+
+
+
+  #primary-menu-bar {
+  padding-top: 0;
+  border-bottom: 3px solid #000;
+  }
+.primary-menu li a {
+color: #999;
+font: 'Lucida Grande';
+/*margin-right: 20px; */
+}
+.main-m-bullets {
+  position:relative;
+  top:5px;
+  font-size:.5em;
+ /*width:10%; */
+ width:7%;
+ 
+}
+/* END GLOBAL NAV */  
+
+/*-- S I D E B A R --*/
+
+img.site-logo {
+  margin-left: 0 !important;
+}
+
+body.front .region-sidebar-first { /*homepage */
+  padding-top:38px; 
+}
+
+/* SIDEBAR NEWS */
+section#block-views-sidebar-homepage-news-block h2.block-title { /*MOVE TO RESPONSIVE??? */
+/*div.region-sidebar-first h2.block-title:first-child { */
+  background:url('../images/header-underline.gif')no-repeat 50% 85%; 
+  padding-bottom:10px;
+  text-align:center;
+  text-transform:uppercase;
+  font-size:1.2em; /* Same as menu */
+}
+h3.sidebar-news-date {
+  font-size:.9em;
+
+  text-align:center;
+}
+h2.sidebar-news-title {
+  text-align:center;
+  font-weight:800;
+  font-size:.85em;
+  line-height:1.3;
+
+}
+
+.views-field-field-program-venu .field-content {
+font-size:.85em;
+margin:0 auto;
+}
+
+p.sidebar-news-content, .sidebar-news-venue-host, h3.sidebar-news-host {
+margin-top:15px;
+font-size:.9em;
+line-height:1.4; 
+}
+.block-views-sidebar-homepage-news-block h2.block-title{
+  font-size:.5em;
+}
+ 
+.more-link {
+  position:relative;
+  top:-65px;
+  font-size:.9em;
+  display:none;
+}
+body.front .views-row-1 div span { /* the new More link */
+  display:inline-block;
+  text-align: right;
+  width:100%;
+}
+
+.sidebar-news-rsvp p{
+  font-size:.9em;
+  text-align:center;
+  position:relative;
+  display:block;
+top:25px;
+}
+
+.sidebar-news-rsvp a {
+  clear:left;
+  text-align:left;
+  display:block;
+font-size:.73em;
+}
+
+/*MINI CALENDAR - HAS TO BE STYLED HERE */
+
+#block-views-program-event-calendar-block-1 .block-inner {
+  margin:0 4px;
+}
+.view-display-id-block_1 .date-nav-wrapper .date-prev a {
+margin-left: 3px;
+font-weight: bold;
+}
+.view-display-id-block_1 .date-nav-wrapper .date-next a {
+margin-right: 3px;
+font-weight: bold;
+}
+.view-display-id-block_1 .date-heading h3 {
+font-size: 1.4em !important;
+}
+
+
+/* END SIDEBAR NEWS--*/
+
+
+/* SIDE MENUS */
+
+/* CAUSING PROBLEMS WITH OTHER MENU DEPTHS????
+nav#block-menu-menu-events ul.menu li.menu-item-692 a, nav#block-menu-menu-insights ul.menu li.menu-item-687 a{
+  font-size:1.1em;
+}
+*/
+
+/*
+nav#block-menu-menu-events ul.menu,
+nav#block-menu-menu-insights ul.menu {
+position:relative;
+  top:18px;
+} */
+
+nav#block-menu-menu-events ul li.menu-depth-1, 
+nav#block-menu-menu-contact-join ul li.menu-depth-1, 
+nav#block-menu-menu-insights ul li.menu-depth-1, 
+nav#block-menu-menu-network ul li.menu-depth-1 {
+  margin-bottom:3em;
+}
+
+nav#block-menu-menu-events ul li.menu-depth-1 a, 
+nav#block-menu-menu-contact-join ul li.menu-depth-1 a, 
+nav#block-menu-menu-insights ul li.menu-depth-1 a,
+nav#block-menu-menu-network ul li.menu-depth-1 a {
+  color:#959595;
+  font-weight:800;
+  font-size:1.2em;
+  text-align:center;
+  text-transform: uppercase;
+}
+
+ul li.menu-depth-1 ul li.menu-depth-2:last-child {
+ margin-bottom:37px !important;
+}
+
+nav#block-menu-menu-events ul li ul li.menu-depth-2 a,
+nav#block-menu-menu-contact-join ul li ul li.menu-depth-2 a, 
+nav#block-menu-menu-insights ul li ul li.menu-depth-2 a, 
+nav#block-menu-menu-network ul li ul li.menu-depth-2 a {
+  text-align:center;
+  font-weight:800;
+  font-size:.9em;
+  text-transform: uppercase;
+}
+
+nav#block-menu-menu-events ul li ul li.menu-depth-2,
+nav#block-menu-menu-contact-join ul li ul li.menu-depth-2, 
+nav#block-menu-menu-insights ul li ul li.menu-depth-2, 
+nav#block-menu-menu-network ul li ul li.menu-depth-2 {
+  margin-bottom: 1em
+}
+
+ul li.menu-depth-1 ul li.menu-depth-2 ul li.menu-depth-3 {
+  margin-bottom:17px;
+}
+
+ul li.menu-depth-1 ul li.menu-depth-2 ul li.menu-depth-3:last-child {
+  margin-bottom: 38px;
+}
+
+nav#block-menu-menu-events ul li ul li ul li.menu-depth-3 a, 
+nav#block-menu-menu-contact-join ul li ul li ul li.menu-depth-3 a, 
+nav#block-menu-menu-insights ul li ul li ul li.menu-depth-3 a,
+nav#block-menu-menu-network ul li ul li ul li.menu-depth-3 a {
+  color:#959595;
+  font-weight:800;
+  font-size:.75em;
+  text-align:center;
+  text-transform: uppercase;
+}
+
+
+/* END SIDEBAR MENUS */
+/* CALENDAR */
+#block-views-program-event-calendar-block-1 {
+ top:0px;
+}
+/* END CALENDAR */
+
+/*---- END SIDEBAR */
+
+/*---- MAIN CONTENT ----*/
+header#main-content-header {position:relative;}
+#main-content {
+  
+}
+#block-block-4 p {
+  margin:0;
+}
+
+#content p {/* position:relative;width:100% */}
+
+#homepage-logo, .image-style-large-logo {
+display:block;
+  margin:0 auto;
+  position:relative;
+  top:25px;
+  width:472px;
+  }
+
+/* LANDING PAGES */
+/* LANDING PAGES LEVEL 1 */
+
+
+body.node-type-landing-page #main-content {
+margin-left:15px;
+width:496px;
+padding-top:47px;
+}
+/* 
+body.node-type-landing-page h1#page-title {
+  font-size:4.7em;
+  margin-right:0;
+  padding-right:4px;
+  position:relative;
+  display:inline;
+ } */
+
+
+/* LANDING PAGES LEVEL 2 */
+body.page-node-249 #main-content { /* ARCHIVE */
+padding-top:48px;
+}
+
+body.node-type-landing-page.page-node-249  h1#page-title {
+  font-size:3.5em;
+  display:block;
+  width:242px;
+  padding-top:0; 
+}
+
+body.page-node-249 #main-content-header { /* ARCHIVE */
+  background:url('images/bg-hdr-archive-landing.png')repeat-x 10px 21px;
+  background-size:1px 38px;
+  border:0px solid red;
+  padding-top:0;
+  height:75px;
+}
+
+body.page-node-85 #main-content { /* LIBRARY */
+padding-top:47px;
+margin-left:15px;
+width:96%;
+}
+
+body.page-node-85 #main-content-header {  /* LIBRARY */
+  background:url('images/bg-hdr-library-landing.png')repeat-x 10px 20px;
+  background-size:1px 40px;
+  border:0px solid red;
+  padding-top:0;
+  height:77px;
+  }
+
+body.page-node-85 h1#page-title {  /* LIBRARY LANDING PAGE, */
+  font-size:3.5em; 
+  display:block;
+  width:230px;
+}
+
+body.page-node-119 #main-content-header {  /* JOIN */
+  background:url('images/bg-hdr-post-landing.png')repeat-x 10px 20px;
+  background-size:1px 40px;
+  border:0px solid red;
+  padding-top:0;
+  height:77px;
+  }
+
+body.page-node-119 h1#page-title {  /* JOIN */
+  font-size:3.5em; 
+  display:block;
+  width:126px;
+}
+
+
+body.page-node-118 h1#page-title {  /* RESOURCES */
+  font-size:3.5em; 
+  display:block;
+  width:318px;
+}
+
+body.page-node-118 #main-content-header {  /* RESOURCES */
+  background:url('images/bg-hdr-resources-landing.gif')repeat-x 10px 20px;
+  background-size:1px 40px;
+  border:0px solid red;
+  padding-top:0;
+  height:77px;
+  }
+
+
+
+
+
+
+
+/* LANDING PAGES LEVEL 3 */
+/*ENVIRONMENTAL, SOCIAL, ECONOMIC */
+body.page-node-89 #main-content-header, body.page-node-90 #main-content-header, body.page-node-91 #main-content-header { /*Library - Economic */
+  background:url('images/bg-hdr-library-landing.png')repeat-x 10px 21px;
+  background-size:1px 38px;
+}
+
+body.page-node-89.node-type-landing-page h1#page-title, body.page-node-90.node-type-landing-page h1#page-title, body.page-node-91.node-type-landing-page h1#page-title {
+  color:#3c75a4;
+  float:left;
+  font-size:3.5em;
+  display:block;
+  width:230px;
+}
+body.page-node-89.node-type-landing-page h2, body.page-node-90.node-type-landing-page h2, body.page-node-91.node-type-landing-page h2 {
+  color:#fff;
+  float:left;
+  text-transform: uppercase;
+  font-size:1.7em;padding-top:3px;padding-left:3px;
+}
+
+/* CONTACT */
+body.page-contact #main-content {
+  padding-top:47px;
+}
+
+body.page-contact #main-content h1#page-title {
+  font-size:4.5em;
+  color:#434343;
+}
+
+
+/* PROGRAM-ENTRY-PANE --*/
+.program-event-time-span {
+  margin-bottom: 0;
+  background:url('images/time-span-bg.png')repeat-x 10px 14px;
+  width:96%;
+  margin-left:11px;
+  }
+.program-event-time-span .block-inner{
+  margin-left:0;
+} 
+
+.program-event-time-span ul li {
+  font-size:2.3em;background-color:#fff;display:inline;
+  color:#434343;font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:-.05px;
+  padding-right:0;
+  padding-right:2px;
+} 
+
+.program-entry-title {
+
+  color:#3c75a4;
+font-weight:900;
+margin:0 0 10px 0;
+}
+
+
+ .program-entry-pane-field section h2.field-label,
+ .program-entry-pane-field h2.program-event-label {display:block;color:000;margin-bottom:0;} 
+
+.program-entry-pane-body {
+  margin-bottom: 0;
+}
+
+
+ 
+/* SOCIAL MEDIA FOR NODES ----*/
+.pane-custom.pane-2 {
+  position:relative;
+  top:-10px;
+  height:30px !important;
+  border:0px solid red;
+}
+
+.pane-custom.pane-3 {
+  position:relative;
+  top:-30px;
+  height:30px !important;
+  border:0px solid red;
+}
+
+.pane-custom.pane-2 p{height:10px;}
+.sharetool{}
+.twitter-sharetool {}
+.twitter-sharetool .icon {
+  
+}
+
+
+/*--- RESOURCES ---*/
+
+body.node-type-resources-basic-page #main-content {
+padding-top:43px;
+}
+
+ /* BLOGS ALL */
+body.page-blogs-all #main-content {
+  padding-top: 52px;
+}
+body.page-blogs-all #main-content-header {
+background:url('images/bg-hdr-blog-landing.gif')repeat-x 10px 18px;
+background-size:1px 36px;
+  border:0px solid red;
+  padding-top:0;
+  height:75px;
+  width:100%;
+  margin-bottom:10px;
+}
+
+body.page-blogs-all #main-content-header h1{
+  font-size:3.2em;
+  display:inline;
+  color: #3c75a4;
+  background:#fff;    
+  margin-right:0;
+  padding-right:3px;
+}
+body.page-blogs-all p.author-datetime {
+  margin-bottom: 5px
+}
+body.page-blogs-all .field-name-field-image-caption, body.node-type-blog .field-name-field-image-caption {
+  font-weight:bold;
+  font-size:.85em;
+  margin:0 0 10px 0;
+}
+#edit-comment-body-und-0-format {
+  display:none;
+}
+/*---- END MAIN CONTENT ----*/
+
+/*-- A C C O U N T   R E L A T E D --*/
+
+body.page-contact input {
+  width:98%;
+}
+
+
+

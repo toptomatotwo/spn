@@ -1,0 +1,13 @@
+name = Mailman Manager
+description = "Allows members to subscribe and change their subscriptions to Mailman mailing lists."
+package = MailmanManager
+core = 7.x
+
+files[] = mailman_manager.test
+
+; Information added by drupal.org packaging script on 2013-10-01
+version = "7.x-1.0-rc1+0-dev"
+core = "7.x"
+project = "mailman_manager"
+datestamp = "1380585705"
+

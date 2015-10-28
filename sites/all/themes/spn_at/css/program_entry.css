@@ -1,0 +1,16 @@
+
+/* PREPROCESS NODE NOT FIRING ON THIS NODE TYPE!!! */
+body.node-type-program-entry #content .field-name-body ul {
+		margin-left: 20px;
+	}
+
+body.node-type-program-entry #content .field-name-body ul li{
+		color:#959595;
+		font-weight: 900;x
+	}
+
+body.node-type-program-entry strong {
+		color:#000;
+	}
+
+
