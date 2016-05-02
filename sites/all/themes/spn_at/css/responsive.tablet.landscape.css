@@ -15,7 +15,7 @@ body {
 }
 
   body::before{
-    /* content: "(min-width:769px) and (max-width:1024px) tablet.landscape.css"; */
+  /*  content: "(min-width:769px) and (max-width:1024px) tablet.landscape.css"; */
     font-weight: bold; 
     display: block; 
     text-align: center; 
@@ -270,7 +270,7 @@ a.sidebar-first-header-link {
 }
 body.front .views-row-1 div span { /* the new More link */
   display:inline-block;
-  text-align: right;
+  text-align: center;
   width:100%;
 }
 

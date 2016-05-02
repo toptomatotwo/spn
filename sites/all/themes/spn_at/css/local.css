@@ -330,7 +330,7 @@ text-transform:uppercase;
 	border-left:2px solid #959595;
 }
 
-section.pane-node-field-invited-panelist h2.pane-title, section.program-entry-pane-moderator h2.pane-title, section.pane-invited-panelists-panel-pane-1 h2.pane-title, section.pane-moderator-panel-pane-1 h2.pane-title {
+section.pane-node-field-invited-panelist h2.pane-title, section.program-entry-pane-moderator h2.pane-title, section.pane-invited-panelists-panel-pane-1 h2.pane-title, section.pane-moderator-panel-pane-1 h2.pane-title, section.pane-node-field-program-attachments h2.pane-title {
 	font-size:1em;
 	color:#000;
 	/* display:inline; */

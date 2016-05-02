@@ -9,6 +9,16 @@ h1.moderator-bio-hdr {
   text-transform:uppercase;
   } 
 
+ .panelist-info, h4 {
+ 	list-style-type:none;
+ 	color:#959595;font-weight:900;
+ } 
+
+h4 {margin-bottom:0;}
+
+ .panelist-info{
+ 	padding:0;margin:0;
+ }
 
 
 
@@ -86,12 +96,12 @@ h1.moderator-bio-hdr {
 	color:#454545;font-weight:bold;
 	position:relative;
 	margin-top:20px;
-	padding-left:6px;
+	padding-left:0px;
 	width:275px;
 	z-index:10;
 }
 
-.field-type-text-with-summary p {
+.field-type-text-with-summary p, .panelist-moderator-additional-info {
 	margin-left:86px;
 }
 }
@@ -178,7 +188,7 @@ h1.moderator-bio-hdr {
 	z-index:10;
 }
 
-.field-type-text-with-summary p {
+.field-type-text-with-summary p, .panelist-moderator-additional-info {
 	margin-left:86px;
 }
 }
@@ -287,7 +297,7 @@ h1#page-title {
 	z-index:10;
 }
 
-.field-type-text-with-summary p {
+.field-type-text-with-summary p, .panelist-moderator-additional-info {
 	margin-left:86px;
  }
 }
@@ -381,7 +391,7 @@ p {color:#959595;font-weight:900;}
 	z-index:10;
 }
 
-.field-type-text-with-summary p {
+.field-type-text-with-summary p, .panelist-moderator-additional-info {
 	margin-left:86px;
  }
 
