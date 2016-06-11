@@ -11,7 +11,7 @@
 
 
 ;----------// Stylesheets
-
+  ;adding some random notes here
   ; See each stylesheet for extensive documentation and help.
   stylesheets[screen][] = css/global.base.css
   stylesheets[screen][] = css/global.styles.css
@@ -22,9 +22,10 @@
   stylesheets[all][] = css/responsive-tables.css
   stylesheets[all][] = css/tablet.css
   stylesheets[all][] = css/mobile.css
+
   ;this needs to load via a preprocess function
   stylesheets[all][] = css/program_entry.css 
-
+  ; exclude[css][] = css/global.styles.css
 
   ; Print - uncomment to load basic print styles.
   ; stylesheets[print][] = css/print.css
