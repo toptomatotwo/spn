@@ -35,13 +35,14 @@ jQuery(document).ready(function() {
 	//EOF MAIN NAV
 
 //BOF HIDE SHOW MOBILE SEARCH BOX
+/*
 jQuery('a#mobile-search').click(function(event){
     jQuery('#block-search-form').fadeIn('slow');
     mobileSearchDiv = true;
     //alert(mobileSearchDiv);
     event.stopPropagation();
   });
-
+*/
 /*
 jQuery(':not(#block-search-form)').click(function(){  
       if(mobileSearchDiv == true){

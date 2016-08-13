@@ -1,31 +1,15 @@
 
 a, a:visited, a:hover, a:link {
 	color:#3c75a4;
-	/* color:#3c75a4; Too BLUE,SATURATED,*/
-	/* color:#4e799b; */
-	/*color:#6699cc; */
+
 } 
-/* Global 
-The Blue was:#799bb6;
-The Blue is:4e799b
-*/
+
 body {
 font-family:'Lucida Grande', 'lucida_webfont', 'Open Sans', Helvetica; 
-	/*font-family:'Lucida Grande', 'lucida_webfont', 'Arial Black'; */
-	
 }
 body.page-node-269 .field-name-field-please-rsvp {
 	display:none;
 }
-
-body.page-node-194 #page {
-/* background: url('images/bg_ref_events.png')0 15px; */
-}
-/*
-body.node-type-landing-page #page {
- background: url('images/bg-ref-events-landing.png')0 18px; 
-} */
-
 
 iframe {display:block;}
 
@@ -37,7 +21,7 @@ iframe {display:block;}
 	top:100px;
 	left:0;
 	color:#f00;
-	display:none;
+	display:block;
 }
 #messages {
 	display:none;
@@ -69,7 +53,6 @@ border-top: 2px solid #959595;
 
 .region-sidebar-first {
   min-height: 50em;
-  /* border-right:1px solid #a7a7a7; PREV PROVIDED BORDER */
 }
 
 #content-column .content-inner {
@@ -100,15 +83,14 @@ ul.menu li{
 
 }
 .primary-menu li a:hover {
-	/* color:#4e799b; */
 	color:#3c75a4;
 	text-decoration:none;
 }
 
 #about-menu-mobile-popup {
-background-color:#fff;
-border:3px solid #666;
-border-style:dotted solid;
+	background-color:#fff;
+	border:3px solid #666;
+	border-style:dotted solid;
 	position:absolute;
 	margin:0 auto;
 	display:none;
@@ -294,6 +276,7 @@ color:#3c75a4;
 .program-event-time-span {margin-bottom: 0;}
 
 .program-entry-pane-body p {color:#959595;font-weight:700}
+.program-entry-pane-body h3 {margin-bottom:0}
 .program-entry-pane-field div.field-items, 
 .program-entry-pane-field div.program-event-time,
 .program-entry-pane-field div.program-event-host,
@@ -338,10 +321,6 @@ section.pane-node-field-invited-panelist h2.pane-title, section.program-entry-pa
 .program-event-pane-date-m-d-y span, span.views-label-field-event-date-sl {
 	font-weight:bold;
 }
-
-
-/*.program-entry-pane-body, section.program-entry-pane-moderator { */
-
 
 .field-name-field-invited-panelist {
 	display:inline;

@@ -80,24 +80,7 @@
 <?php print $scripts; ?>
 <?php print $polyfills; ?>
 <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-<!--PREVIOUS VERSION
-<script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : 'your-app-id',
-          xfbml      : true,
-          version    : 'v2.1'
-        });
-      };
 
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
-    </script> -->
 </head>
 <body class="<?php print $classes; ?>"<?php print $attributes; ?>>
 <div id="fb-root"></div>
@@ -108,23 +91,6 @@
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=586610678111281&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-	<!-- <script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '586610678111281',
-      xfbml      : true,
-      version    : 'v2.2'
-    });
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script> -->
   <div id="monitor"></div>
   <div id="skip-link" class="nocontent">
     <a href="<?php print $skip_link_target; ?>" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
